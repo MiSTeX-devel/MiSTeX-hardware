@@ -5046,7 +5046,7 @@
   (symbol (lib_id "easyeda2kicad:LXES15AAA1-133") (at 97.536 48.641 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 1537df2b-d5b6-4258-a0c8-b09fa5be3e6b)
-    (property "Reference" "D?" (id 0) (at 86.741 48.768 0)
+    (property "Reference" "D15" (id 0) (at 86.741 48.768 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "LXES15AAA1-133" (id 1) (at 100.838 48.641 0)
@@ -5074,7 +5074,7 @@
   (symbol (lib_id "power:GND") (at 101.092 53.721 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 1b127cd0-60dc-4bc2-be10-80c32b073c51)
-    (property "Reference" "#PWR?" (id 0) (at 101.092 60.071 0)
+    (property "Reference" "#PWR0134" (id 0) (at 101.092 60.071 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 101.0921 57.023 90)
@@ -5184,7 +5184,7 @@
   (symbol (lib_id "power:GND") (at 93.853 53.721 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 37b1d238-71b9-4515-a097-a4424271069f)
-    (property "Reference" "#PWR?" (id 0) (at 93.853 60.071 0)
+    (property "Reference" "#PWR0133" (id 0) (at 93.853 60.071 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 93.8531 57.023 90)
@@ -5234,7 +5234,7 @@
   (symbol (lib_id "easyeda2kicad:LXES15AAA1-133") (at 93.853 48.641 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 49a8c814-d4e4-4072-abfb-9a34070c3de2)
-    (property "Reference" "D?" (id 0) (at 83.058 48.768 0)
+    (property "Reference" "D14" (id 0) (at 83.058 48.768 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "LXES15AAA1-133" (id 1) (at 97.155 48.641 0)
@@ -5362,7 +5362,7 @@
   (symbol (lib_id "power:GND") (at 51.689 53.721 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 5b3f58df-1b1c-4fcd-844c-478b3aed2701)
-    (property "Reference" "#PWR?" (id 0) (at 51.689 60.071 0)
+    (property "Reference" "#PWR0131" (id 0) (at 51.689 60.071 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 51.6891 57.023 90)
@@ -5380,7 +5380,7 @@
   (symbol (lib_id "power:GND") (at 44.45 53.721 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 5ffa540d-4eb2-4621-95c2-f225af79561b)
-    (property "Reference" "#PWR?" (id 0) (at 44.45 60.071 0)
+    (property "Reference" "#PWR0130" (id 0) (at 44.45 60.071 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 44.4501 57.023 90)
@@ -5434,7 +5434,7 @@
   (symbol (lib_id "easyeda2kicad:LXES15AAA1-133") (at 48.133 48.641 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 6bb0d1c6-1d6b-4fe5-a624-457022ac2147)
-    (property "Reference" "D?" (id 0) (at 37.338 48.768 0)
+    (property "Reference" "D12" (id 0) (at 37.338 48.768 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "LXES15AAA1-133" (id 1) (at 51.435 48.641 0)
@@ -5462,7 +5462,7 @@
   (symbol (lib_id "easyeda2kicad:LXES15AAA1-133") (at 51.689 48.641 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 6dedb8f7-4151-4be2-a231-9daeebdd5684)
-    (property "Reference" "D?" (id 0) (at 40.894 48.768 0)
+    (property "Reference" "D13" (id 0) (at 40.894 48.768 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "LXES15AAA1-133" (id 1) (at 54.991 48.641 0)
@@ -5847,7 +5847,7 @@
   (symbol (lib_id "easyeda2kicad:LXES15AAA1-133") (at 101.092 48.641 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid aafd2f27-7c7d-4ecc-8bc5-f01a85d2921b)
-    (property "Reference" "D?" (id 0) (at 90.297 48.768 0)
+    (property "Reference" "D16" (id 0) (at 90.297 48.768 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "LXES15AAA1-133" (id 1) (at 104.394 48.641 0)
@@ -6020,7 +6020,7 @@
   (symbol (lib_id "power:GND") (at 97.536 53.721 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid cab75a87-e198-49fd-a51a-ca3f8f244fd4)
-    (property "Reference" "#PWR?" (id 0) (at 97.536 60.071 0)
+    (property "Reference" "#PWR0135" (id 0) (at 97.536 60.071 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 97.5361 57.023 90)
@@ -6120,7 +6120,7 @@
   (symbol (lib_id "power:GND") (at 48.133 53.721 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid d5b2b69f-34e7-4afe-80f6-b3552917c631)
-    (property "Reference" "#PWR?" (id 0) (at 48.133 60.071 0)
+    (property "Reference" "#PWR0132" (id 0) (at 48.133 60.071 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 48.1331 57.023 90)
@@ -6138,7 +6138,7 @@
   (symbol (lib_id "easyeda2kicad:LXES15AAA1-133") (at 44.45 48.641 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid d5c16ce1-302b-44c1-b6a0-7d08a3c2217a)
-    (property "Reference" "D?" (id 0) (at 33.655 48.768 0)
+    (property "Reference" "D11" (id 0) (at 33.655 48.768 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "LXES15AAA1-133" (id 1) (at 47.752 48.641 0)
@@ -6697,23 +6697,23 @@
     (path "/0232c091-3e03-4e20-be74-1c5ea1d111c4"
       (reference "#PWR0129") (unit 1) (value "GND") (footprint "")
     )
-    (path "/1b127cd0-60dc-4bc2-be10-80c32b073c51"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/37b1d238-71b9-4515-a097-a4424271069f"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    (path "/5ffa540d-4eb2-4621-95c2-f225af79561b"
+      (reference "#PWR0130") (unit 1) (value "GND") (footprint "")
     )
     (path "/5b3f58df-1b1c-4fcd-844c-478b3aed2701"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/5ffa540d-4eb2-4621-95c2-f225af79561b"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/cab75a87-e198-49fd-a51a-ca3f8f244fd4"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0131") (unit 1) (value "GND") (footprint "")
     )
     (path "/d5b2b69f-34e7-4afe-80f6-b3552917c631"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0132") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/37b1d238-71b9-4515-a097-a4424271069f"
+      (reference "#PWR0133") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/1b127cd0-60dc-4bc2-be10-80c32b073c51"
+      (reference "#PWR0134") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/cab75a87-e198-49fd-a51a-ca3f8f244fd4"
+      (reference "#PWR0135") (unit 1) (value "GND") (footprint "")
     )
     (path "/351874dc-99f1-41fb-8357-28151f7d437e"
       (reference "C1") (unit 1) (value "100nF") (footprint "C_0402_1005Metric")
@@ -6754,23 +6754,23 @@
     (path "/8b78a8b6-8f1c-4cb5-9b43-d1f93e61a220"
       (reference "D10") (unit 1) (value "red") (footprint "LED_SMD:LED_0603_1608Metric")
     )
-    (path "/1537df2b-d5b6-4258-a0c8-b09fa5be3e6b"
-      (reference "D?") (unit 1) (value "LXES15AAA1-133") (footprint "D0402-BI")
-    )
-    (path "/49a8c814-d4e4-4072-abfb-9a34070c3de2"
-      (reference "D?") (unit 1) (value "LXES15AAA1-133") (footprint "D0402-BI")
+    (path "/d5c16ce1-302b-44c1-b6a0-7d08a3c2217a"
+      (reference "D11") (unit 1) (value "LXES15AAA1-133") (footprint "D0402-BI")
     )
     (path "/6bb0d1c6-1d6b-4fe5-a624-457022ac2147"
-      (reference "D?") (unit 1) (value "LXES15AAA1-133") (footprint "D0402-BI")
+      (reference "D12") (unit 1) (value "LXES15AAA1-133") (footprint "D0402-BI")
     )
     (path "/6dedb8f7-4151-4be2-a231-9daeebdd5684"
-      (reference "D?") (unit 1) (value "LXES15AAA1-133") (footprint "D0402-BI")
+      (reference "D13") (unit 1) (value "LXES15AAA1-133") (footprint "D0402-BI")
+    )
+    (path "/49a8c814-d4e4-4072-abfb-9a34070c3de2"
+      (reference "D14") (unit 1) (value "LXES15AAA1-133") (footprint "D0402-BI")
+    )
+    (path "/1537df2b-d5b6-4258-a0c8-b09fa5be3e6b"
+      (reference "D15") (unit 1) (value "LXES15AAA1-133") (footprint "D0402-BI")
     )
     (path "/aafd2f27-7c7d-4ecc-8bc5-f01a85d2921b"
-      (reference "D?") (unit 1) (value "LXES15AAA1-133") (footprint "D0402-BI")
-    )
-    (path "/d5c16ce1-302b-44c1-b6a0-7d08a3c2217a"
-      (reference "D?") (unit 1) (value "LXES15AAA1-133") (footprint "D0402-BI")
+      (reference "D16") (unit 1) (value "LXES15AAA1-133") (footprint "D0402-BI")
     )
     (path "/dee682ae-5831-4458-aee8-f10821032dc7"
       (reference "F1") (unit 1) (value "JK-NSMD050-30V") (footprint "easyeda2kicad:F1206")
