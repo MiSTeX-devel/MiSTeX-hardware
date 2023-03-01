@@ -60,7 +60,14 @@
           "width": 0.20574
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "annular_width|132120100|118332400|ddc2f782-0860-4c1f-92b5-03069f2c27ed|00000000-0000-0000-0000-000000000000",
+        "annular_width|132120100|74182400|e4269e37-62c9-41b2-888e-9adbdf3a13fd|00000000-0000-0000-0000-000000000000",
+        "annular_width|132120100|94182400|4f27496c-ec8d-4f6d-8388-4abb97abbef2|00000000-0000-0000-0000-000000000000",
+        "annular_width|132120100|98332400|2233859b-b2bd-407b-a4eb-fc179f3c6d78|00000000-0000-0000-0000-000000000000",
+        "annular_width|143290100|64019900|728db137-40e2-4c34-a35b-22a2fb38ac1b|00000000-0000-0000-0000-000000000000",
+        "annular_width|148240100|64019900|e539450a-04a2-495c-b65b-dc39376db4df|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -118,7 +125,7 @@
         "min_silk_clearance": 0.0,
         "min_through_hole_diameter": 0.19999999999999998,
         "min_track_width": 0.08889999999999999,
-        "min_via_annular_width": 0.0,
+        "min_via_annular_width": 0.09999999999999999,
         "min_via_diameter": 0.44999999999999996,
         "use_height_for_length_calcs": true
       },
