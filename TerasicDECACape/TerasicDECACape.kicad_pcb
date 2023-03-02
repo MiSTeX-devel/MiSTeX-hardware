@@ -2889,7 +2889,7 @@
   (gr_text "RX" (at 132.1181 67.9704) (layer "F.SilkS") (tstamp 4ff0fe70-da20-45b7-a7d7-8f4be6f61b4f)
     (effects (font (size 0.5 0.5) (thickness 0.125)))
   )
-  (gr_text "GND" (at 175.1711 117.7544 90) (layer "F.SilkS") (tstamp 50f7d596-13d3-46f4-8e88-0b0ad9f83569)
+  (gr_text "GND" (at 169.2021 117.5004 90) (layer "F.SilkS") (tstamp 50f7d596-13d3-46f4-8e88-0b0ad9f83569)
     (effects (font (size 0.5 0.5) (thickness 0.125)))
   )
   (gr_text "GND" (at 129.5781 67.9704) (layer "F.SilkS") (tstamp 6fc9e15f-dd63-4ae4-8b7d-0d24bc30c825)
