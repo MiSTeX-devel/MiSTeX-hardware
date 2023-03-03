@@ -1,0 +1,26 @@
+Comment,Designator,Footprint,LCSC
+USB_A,J2,USB-A-SMD_USB-302S,C112455
+100nF,C1,C_0402_1005Metric,C1525
+LXES15AAA1-133,"D10,D11,D12,D13,D14,D15,D16,D2,D3,D4,D5,D6,D7,D8,D9",D0402-BI,C191267
+Schottky,D1,D_SMA,C22452
+100R,R3,R_0402_1005Metric,C25076
+22R,"R1,R2",R_0402_1005Metric,C25092
+47R,"R5,R6,R7,R8,R9",R_0402_1005Metric,C25118
+10k,R4,R_0402_1005Metric,C25744
+TS-1187A-B-A-B,"SW1,SW2",SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2,C318884
+NASB0-S6701-TS50,"CN1,CN2",CONN-SMD_67P-P0.50-V_NASB0-S6701-TS50,C367024
+JK-NSMD050-30V,F1,F1206,C720075
+BeagleBone_Black_Header,P8,Socket_BeagleBone_Black,
+BeagleBone_Black_Header,P9,Socket_BeagleBone_Black,
+MiSTer SDRAM Module,J1,PinHeader_2x20_P2.54mm_Vertical,
+Conn_01x03_Male,J3,PinHeader_1x03_P2.54mm_Vertical,
+Conn_02x06_Odd_Even,J4,PinSocket_2x06_P2.54mm_Vertical,
+MountingHole_Pad,H1,MountingHole_2.2mm_M2_ISO7380_Pad_TopBottom,
+Sipeed Lichee,M1,Sipeed Lichee,
+TestPoint,TP1,TestPoint_Pad_D2.0mm,
+TestPoint,TP6,TestPoint_Pad_D1.0mm,
+TestPoint,TP4,TestPoint_Pad_D2.0mm,
+TestPoint,TP2,TestPoint_Pad_D1.0mm,
+TestPoint,TP5,TestPoint_Pad_D1.0mm,
+Conn_02x02_Odd_Even,J5,PinHeader_2x02_P2.54mm_Vertical,
+TestPoint,TP3,TestPoint_Pad_D1.0mm,
