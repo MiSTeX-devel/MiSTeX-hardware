@@ -2852,7 +2852,7 @@
   (symbol (lib_id "power:GND") (at 112.903 111.506 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 05bf0b36-6e07-46d7-b7bd-213a32c3ae8d)
-    (property "Reference" "#PWR?" (id 0) (at 112.903 117.856 0)
+    (property "Reference" "#PWR0101" (id 0) (at 112.903 117.856 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 112.903 116.459 0))
@@ -3667,13 +3667,13 @@
     (uuid bebad199-b672-4a4f-be0b-205c80aa969d)
     (property "Reference" "J2" (id 0) (at 112.776 148.59 0))
     (property "Value" "USB_A" (id 1) (at 112.776 151.13 0))
-    (property "Footprint" "easyeda2kicad:USB-A-SMD_USB-302S" (id 2) (at 112.776 153.67 0)
+    (property "Footprint" "easyeda2kicad:USB-A-SMD_GT-USB-2004-CWG1A" (id 2) (at 112.776 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" " ~" (id 3) (at 116.586 165.354 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C112455" (id 4) (at 112.776 164.084 0)
+    (property "LCSC" "C5117890" (id 4) (at 112.776 164.084 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid cea77a04-315e-4f24-bc4c-bb25637fa8b5))
@@ -4176,6 +4176,9 @@
     (path "/f19cd9fe-2239-43f6-8904-78cbd57cd1cf"
       (reference "#PWR022") (unit 1) (value "+5V") (footprint "")
     )
+    (path "/05bf0b36-6e07-46d7-b7bd-213a32c3ae8d"
+      (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
+    )
     (path "/89283c51-b7ea-4c70-8582-4ad0e5412d0a"
       (reference "#PWR0104") (unit 1) (value "GND") (footprint "")
     )
@@ -4220,9 +4223,6 @@
     )
     (path "/8c648986-4def-4eee-bfca-932a1495295e"
       (reference "#PWR0143") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/05bf0b36-6e07-46d7-b7bd-213a32c3ae8d"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/351874dc-99f1-41fb-8357-28151f7d437e"
       (reference "C1") (unit 1) (value "100nF") (footprint "C_0402_1005Metric")
@@ -4270,7 +4270,7 @@
       (reference "J1") (unit 1) (value "Pmod") (footprint "pmod:Pmod 2x6")
     )
     (path "/bebad199-b672-4a4f-be0b-205c80aa969d"
-      (reference "J2") (unit 1) (value "USB_A") (footprint "easyeda2kicad:USB-A-SMD_USB-302S")
+      (reference "J2") (unit 1) (value "USB_A") (footprint "easyeda2kicad:USB-A-SMD_GT-USB-2004-CWG1A")
     )
     (path "/27715874-6fe4-4f69-aef5-1bdde490b73f"
       (reference "J3") (unit 1) (value "Conn_01x03_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
