@@ -1,7 +1,7 @@
 # MiSTeX-hardware
 ## MiSTeX Pmod
 
-![image](https://user-images.githubusercontent.com/148607/231948955-767aad45-565a-4adb-b6a2-5a7cb1c64456.png)
+![image](https://user-images.githubusercontent.com/148607/231954815-cf86b118-08cb-40bb-a646-8fff4d7f693a.png)
 
 ## MiSTeX cape for the Terasic DECA board
 
