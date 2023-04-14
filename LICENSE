@@ -1,0 +1,96 @@
+Preamble
+
+CERN has developed this licence to promote collaboration among
+hardware designers and to provide a legal tool which supports the
+freedom to use, study, modify, share and distribute hardware designs
+and products based on those designs. Version 2 of the CERN Open
+Hardware Licence comes in three variants: CERN-OHL-P (permissive); and
+two reciprocal licences: this licence, CERN-OHL-W (weakly reciprocal)
+and CERN-OHL-S (strongly reciprocal).
+
+The CERN-OHL-W is copyright CERN 2020. Anyone is welcome to use it, in
+unmodified form only.
+
+Use of this Licence does not imply any endorsement by CERN of any
+Licensor or their designs nor does it imply any involvement by CERN in
+their development.
+
+
+1 Definitions
+
+  1.1 'Licence' means this CERN-OHL-W.
+
+  1.2 'Compatible Licence' means
+
+       a) any earlier version of the CERN Open Hardware licence, or
+
+       b) any version of the CERN-OHL-S or the CERN-OHL-W, or
+
+       c) any licence which permits You to treat the Source to which
+          it applies as licensed under CERN-OHL-S or CERN-OHL-W
+          provided that on Conveyance of any such Source, or any
+          associated Product You treat the Source in question as being
+          licensed under CERN-OHL-S or CERN-OHL-W as appropriate.
+
+  1.3 'Source' means information such as design materials or digital
+      code which can be applied to Make or test a Product or to
+      prepare a Product for use, Conveyance or sale, regardless of its
+      medium or how it is expressed. It may include Notices.
+
+  1.4 'Covered Source' means Source that is explicitly made available
+      under this Licence.
+
+  1.5 'Product' means any device, component, work or physical object,
+      whether in finished or intermediate form, arising from the use,
+      application or processing of Covered Source.
+
+  1.6 'Make' means to create or configure something, whether by
+      manufacture, assembly, compiling, loading or applying Covered
+      Source or another Product or otherwise.
+
+  1.7 'Available Component' means any part, sub-assembly, library or
+      code which:
+
+       a) is licensed to You as Complete Source under a Compatible
+          Licence; or
+
+       b) is available, at the time a Product or the Source containing
+          it is first Conveyed, to You and any other prospective
+          licensees
+
+           i) with sufficient rights and information (including any
+              configuration and programming files and information
+              about its characteristics and interfaces) to enable it
+              either to be Made itself, or to be sourced and used to
+              Make the Product; or
+          ii) as part of the normal distribution of a tool used to
+              design or Make the Product.
+
+  1.8 'External Material' means anything (including Source) which:
+
+       a) is only combined with Covered Source in such a way that it
+          interfaces with the Covered Source using a documented
+          interface which is described in the Covered Source; and
+
+       b) is not a derivative of or contains Covered Source, or, if it
+          is, it is solely to the extent necessary to facilitate such
+          interfacing.
+
+  1.9 'Complete Source' means the set of all Source necessary to Make
+      a Product, in the preferred form for making modifications,
+      including necessary installation and interfacing information
+      both for the Product, and for any included Available Components.
+      If the format is proprietary, it must also be made available in
+      a format (if the proprietary tool can create it) which is
+      viewable with a tool available to potential licensees and
+      licensed under a licence approved by the Free Software
+      Foundation or the Open Source Initiative. Complete Source need
+      not include the Source of any Available Component, provided that
+      You include in the Complete Source sufficient information to
+      enable a recipient to Make or source and use the Available
+      Component to Make the Product.
+
+ 1.10 'Source Location' means a location where a Licensor has placed
+      Covered Source, and which that Licensor reasonably believes will
+      remain easily accessible for at least three years for anyone to
+      obtain a digital copy.
