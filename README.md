@@ -1,5 +1,5 @@
 # MiSTeX-hardware
-## MiSTeX Pmod for Pmod compatible boards
+## MiSTeX Pmod
 
 ![image](https://user-images.githubusercontent.com/148607/231948955-767aad45-565a-4adb-b6a2-5a7cb1c64456.png)
 
