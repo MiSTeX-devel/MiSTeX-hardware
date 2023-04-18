@@ -5,8 +5,8 @@
   (paper "A4")
 
   (title_block
-    (title "MiSTeX Allwinner D1 cape for Terasic DECA")
-    (date "2023-03-02")
+    (title "MiSTeX Allwinner D1 Pmod")
+    (date "2023-04-15")
     (rev "rev0")
     (company "Hans Baier")
   )
