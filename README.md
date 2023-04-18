@@ -3,7 +3,7 @@
 
 ![image](https://user-images.githubusercontent.com/148607/231954815-cf86b118-08cb-40bb-a646-8fff4d7f693a.png)
 
-![image](https://user-images.githubusercontent.com/148607/231959974-ea74c643-8fcc-43aa-818e-e1318f679d15.png)
+![image](https://user-images.githubusercontent.com/148607/232922043-c58138c2-cd65-49cd-bb5b-cd18d380f105.png)
 
 ## MiSTeX cape for the Terasic DECA board
 
