@@ -575,6 +575,10 @@
     [
       "cce2b405-ae09-44af-ba42-d113d6ffe521",
       "User-Interface"
+    ],
+    [
+      "1c7c2fa7-4432-4f4f-97a5-4b27740b1744",
+      "SNAC (USER0-USER6)"
     ]
   ],
   "text_variables": {}
