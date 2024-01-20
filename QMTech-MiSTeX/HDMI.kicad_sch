@@ -7641,7 +7641,7 @@
   (symbol (lib_id "power:GND") (at 88.4497 184.7227 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 009611da-f53c-404a-93e0-ec0743b11cab)
-    (property "Reference" "#PWR051" (at 88.4497 191.0727 0)
+    (property "Reference" "#PWR076" (at 88.4497 191.0727 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 88.5767 189.1169 0)
@@ -7657,7 +7657,7 @@
     (instances
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/5d48eec1-381e-4cbb-abac-13dba509fc03"
-          (reference "#PWR051") (unit 1)
+          (reference "#PWR076") (unit 1)
         )
       )
     )
@@ -7666,7 +7666,7 @@
   (symbol (lib_id "jlcpcb-basic-mlcc-0402:100nF") (at 119.7903 130.3667 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00fb277a-752e-45ef-8e99-61af5ac19bfc)
-    (property "Reference" "C16" (at 122.1144 129.1609 0)
+    (property "Reference" "C32" (at 122.1144 129.1609 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 122.1144 131.5851 0)
@@ -7686,7 +7686,7 @@
     (instances
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/5d48eec1-381e-4cbb-abac-13dba509fc03"
-          (reference "C16") (unit 1)
+          (reference "C32") (unit 1)
         )
       )
     )
@@ -7695,7 +7695,7 @@
   (symbol (lib_id "power:GND") (at 119.7903 132.9067 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 03147ea8-f5c4-4d27-b032-12c66e0ef450)
-    (property "Reference" "#PWR062" (at 119.7903 139.2567 0)
+    (property "Reference" "#PWR083" (at 119.7903 139.2567 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 119.9173 137.3009 0)
@@ -7711,7 +7711,7 @@
     (instances
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/5d48eec1-381e-4cbb-abac-13dba509fc03"
-          (reference "#PWR062") (unit 1)
+          (reference "#PWR083") (unit 1)
         )
       )
     )
@@ -7720,7 +7720,7 @@
   (symbol (lib_id "jlcpcb-basic-mlcc-0402:100nF") (at 88.167 164.2387 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0c488510-f5d8-49f6-93c5-3259de7ce477)
-    (property "Reference" "C6" (at 90.4911 163.0329 0)
+    (property "Reference" "C23" (at 90.4911 163.0329 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 90.4911 165.4571 0)
@@ -7740,7 +7740,7 @@
     (instances
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/5d48eec1-381e-4cbb-abac-13dba509fc03"
-          (reference "C6") (unit 1)
+          (reference "C23") (unit 1)
         )
       )
     )
@@ -7749,7 +7749,7 @@
   (symbol (lib_id "power:GND") (at 109.5416 150.7744 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 129ee110-7a0b-4dca-b2e8-85f18bc9ab2e)
-    (property "Reference" "#PWR060" (at 109.5416 157.1244 0)
+    (property "Reference" "#PWR082" (at 109.5416 157.1244 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 109.6686 155.1686 0)
@@ -7765,7 +7765,7 @@
     (instances
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/5d48eec1-381e-4cbb-abac-13dba509fc03"
-          (reference "#PWR060") (unit 1)
+          (reference "#PWR082") (unit 1)
         )
       )
     )
@@ -7774,7 +7774,7 @@
   (symbol (lib_id "power:GND") (at 224.2219 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 12c36608-2f78-4cc1-bd61-4da416b57c07)
-    (property "Reference" "#PWR067" (at 224.2219 101.6 0)
+    (property "Reference" "#PWR094" (at 224.2219 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 224.3489 99.6442 0)
@@ -7790,7 +7790,7 @@
     (instances
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/5d48eec1-381e-4cbb-abac-13dba509fc03"
-          (reference "#PWR067") (unit 1)
+          (reference "#PWR094") (unit 1)
         )
       )
     )
@@ -7799,7 +7799,7 @@
   (symbol (lib_id "power:GND") (at 196.2819 74.93 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 13954059-3fd7-4e5d-915c-14294cbfa201)
-    (property "Reference" "#PWR065" (at 189.9319 74.93 0)
+    (property "Reference" "#PWR092" (at 189.9319 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 193.107 74.93 90)
@@ -7815,7 +7815,7 @@
     (instances
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/5d48eec1-381e-4cbb-abac-13dba509fc03"
-          (reference "#PWR065") (unit 1)
+          (reference "#PWR092") (unit 1)
         )
       )
     )
@@ -7824,7 +7824,7 @@
   (symbol (lib_id "jlcpcb-basic-resistor-0603:1M") (at 231.8064 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2297ebed-4557-4f13-85cd-daf7928c23fa)
-    (property "Reference" "R5" (at 233.305 91.4979 0)
+    (property "Reference" "R17" (at 233.305 91.4979 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1M" (at 233.305 93.9221 0)
@@ -7844,7 +7844,7 @@
     (instances
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/5d48eec1-381e-4cbb-abac-13dba509fc03"
-          (reference "R5") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
     )
@@ -7853,7 +7853,7 @@
   (symbol (lib_id "power:GND") (at 48.4447 148.6547 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 236ad9fa-257b-4303-8710-62494c4b0b2e)
-    (property "Reference" "#PWR053" (at 48.4447 155.0047 0)
+    (property "Reference" "#PWR063" (at 48.4447 155.0047 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 48.5717 153.0489 0)
@@ -7869,7 +7869,7 @@
     (instances
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/5d48eec1-381e-4cbb-abac-13dba509fc03"
-          (reference "#PWR053") (unit 1)
+          (reference "#PWR063") (unit 1)
         )
       )
     )
@@ -7878,7 +7878,7 @@
   (symbol (lib_id "Device:C_Small") (at 79.7239 164.2387 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 24f37dbf-3a12-46e7-8e42-733d594876f4)
-    (property "Reference" "C2" (at 82.0607 163.0703 0)
+    (property "Reference" "C19" (at 82.0607 163.0703 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 82.0607 165.3817 0)
@@ -7898,7 +7898,7 @@
     (instances
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/5d48eec1-381e-4cbb-abac-13dba509fc03"
-          (reference "C2") (unit 1)
+          (reference "C19") (unit 1)
         )
       )
     )
@@ -7932,7 +7932,7 @@
   (symbol (lib_id "jlcpcb-basic-mlcc-0402:100nF") (at 109.5416 148.2344 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 29af446b-eca2-477a-be5d-b98bc1a9e34d)
-    (property "Reference" "C15" (at 111.8657 147.0286 0)
+    (property "Reference" "C31" (at 111.8657 147.0286 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 111.8657 149.4528 0)
@@ -7952,7 +7952,7 @@
     (instances
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/5d48eec1-381e-4cbb-abac-13dba509fc03"
-          (reference "C15") (unit 1)
+          (reference "C31") (unit 1)
         )
       )
     )
@@ -7961,7 +7961,7 @@
   (symbol (lib_id "power:GND") (at 88.167 166.7787 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2a3b19c9-30ec-4d59-b060-d6241a1c5f0c)
-    (property "Reference" "#PWR048" (at 88.167 173.1287 0)
+    (property "Reference" "#PWR073" (at 88.167 173.1287 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 88.294 171.1729 0)
@@ -7977,7 +7977,7 @@
     (instances
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/5d48eec1-381e-4cbb-abac-13dba509fc03"
-          (reference "#PWR048") (unit 1)
+          (reference "#PWR073") (unit 1)
         )
       )
     )
@@ -7986,7 +7986,7 @@
   (symbol (lib_id "power:GND") (at 88.2568 132.9067 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2b313e30-24c8-42c9-b73d-dac58ccb25fd)
-    (property "Reference" "#PWR049" (at 88.2568 139.2567 0)
+    (property "Reference" "#PWR074" (at 88.2568 139.2567 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 88.3838 137.3009 0)
@@ -8002,7 +8002,7 @@
     (instances
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/5d48eec1-381e-4cbb-abac-13dba509fc03"
-          (reference "#PWR049") (unit 1)
+          (reference "#PWR074") (unit 1)
         )
       )
     )
@@ -8011,7 +8011,7 @@
   (symbol (lib_id "jlcpcb-basic-resistor-0402:2k") (at 256.6069 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2c7546f2-c745-41a0-b3de-856e301c3766)
-    (property "Reference" "R7" (at 258.1055 78.7979 0)
+    (property "Reference" "R19" (at 258.1055 78.7979 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2k" (at 258.1055 81.2221 0)
@@ -8031,7 +8031,7 @@
     (instances
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/5d48eec1-381e-4cbb-abac-13dba509fc03"
-          (reference "R7") (unit 1)
+          (reference "R19") (unit 1)
         )
       )
     )
@@ -8040,7 +8040,7 @@
   (symbol (lib_id "power:GND") (at 177.7399 87.757 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2ed63b29-7a82-4b1d-bf1f-b4e974aba281)
-    (property "Reference" "#PWR061" (at 184.0899 87.757 0)
+    (property "Reference" "#PWR089" (at 184.0899 87.757 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 180.9148 87.757 90)
@@ -8056,7 +8056,7 @@
     (instances
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/5d48eec1-381e-4cbb-abac-13dba509fc03"
-          (reference "#PWR061") (unit 1)
+          (reference "#PWR089") (unit 1)
         )
       )
     )
@@ -8094,7 +8094,7 @@
   (symbol (lib_id "power:GND") (at 79.9592 152.0444 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 31f6b7a0-969b-462c-94ce-d5afc0196349)
-    (property "Reference" "#PWR045" (at 79.9592 158.3944 0)
+    (property "Reference" "#PWR071" (at 79.9592 158.3944 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 80.0862 156.4386 0)
@@ -8110,7 +8110,7 @@
     (instances
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/5d48eec1-381e-4cbb-abac-13dba509fc03"
-          (reference "#PWR045") (unit 1)
+          (reference "#PWR071") (unit 1)
         )
       )
     )
@@ -8119,7 +8119,7 @@
   (symbol (lib_id "power:+1V8") (at 48.4447 139.7647 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3aac36e6-fe75-4ecc-979a-8bbfbacafe5c)
-    (property "Reference" "#PWR052" (at 48.4447 143.5747 0)
+    (property "Reference" "#PWR062" (at 48.4447 143.5747 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 48.8257 135.3705 0)
@@ -8135,7 +8135,7 @@
     (instances
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/5d48eec1-381e-4cbb-abac-13dba509fc03"
-          (reference "#PWR052") (unit 1)
+          (reference "#PWR062") (unit 1)
         )
       )
     )
@@ -8173,7 +8173,7 @@
   (symbol (lib_id "Device:C_Small") (at 80.0066 182.1827 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3e71b4b6-6f0b-4ba6-9dc4-0623f5d7808c)
-    (property "Reference" "C5" (at 82.3434 181.0143 0)
+    (property "Reference" "C22" (at 82.3434 181.0143 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 82.3434 183.3257 0)
@@ -8193,7 +8193,7 @@
     (instances
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/5d48eec1-381e-4cbb-abac-13dba509fc03"
-          (reference "C5") (unit 1)
+          (reference "C22") (unit 1)
         )
       )
     )
@@ -8202,7 +8202,7 @@
   (symbol (lib_id "jlcpcb-basic-resistor-0402:2k") (at 43.815 82.804 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3edad80d-09c0-4eb5-a28b-c077fd4619bd)
-    (property "Reference" "R3" (at 42.3164 81.5919 0)
+    (property "Reference" "R15" (at 42.3164 81.5919 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2k" (at 42.3164 84.0161 0)
@@ -8222,7 +8222,7 @@
     (instances
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/5d48eec1-381e-4cbb-abac-13dba509fc03"
-          (reference "R3") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
     )
@@ -8281,7 +8281,7 @@
   (symbol (lib_id "power:GND") (at 98.7526 150.7744 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 445efddd-34b2-4225-98be-34abd2b2d302)
-    (property "Reference" "#PWR056" (at 98.7526 157.1244 0)
+    (property "Reference" "#PWR079" (at 98.7526 157.1244 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 98.8796 155.1686 0)
@@ -8297,7 +8297,7 @@
     (instances
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/5d48eec1-381e-4cbb-abac-13dba509fc03"
-          (reference "#PWR056") (unit 1)
+          (reference "#PWR079") (unit 1)
         )
       )
     )
@@ -8335,7 +8335,7 @@
   (symbol (lib_id "power:GND") (at 176.8509 44.45 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4e1adb42-ba6d-473d-81ae-3fd5cf04b63b)
-    (property "Reference" "#PWR057" (at 183.2009 44.45 0)
+    (property "Reference" "#PWR087" (at 183.2009 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 180.0258 44.45 90)
@@ -8351,7 +8351,7 @@
     (instances
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/5d48eec1-381e-4cbb-abac-13dba509fc03"
-          (reference "#PWR057") (unit 1)
+          (reference "#PWR087") (unit 1)
         )
       )
     )
@@ -8360,7 +8360,7 @@
   (symbol (lib_id "power:GND") (at 133.6709 44.45 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4fff3daa-27d8-4516-9a97-cbfcc0c4dbb6)
-    (property "Reference" "#PWR033" (at 127.3209 44.45 0)
+    (property "Reference" "#PWR084" (at 127.3209 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 130.496 44.45 90)
@@ -8376,7 +8376,7 @@
     (instances
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/5d48eec1-381e-4cbb-abac-13dba509fc03"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR084") (unit 1)
         )
       )
     )
@@ -8385,7 +8385,7 @@
   (symbol (lib_id "power:GND") (at 59.309 105.664 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 53f16aa9-41c5-4e8c-8b87-94c21a67a73a)
-    (property "Reference" "#PWR031" (at 59.309 112.014 0)
+    (property "Reference" "#PWR064" (at 59.309 112.014 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 59.309 110.2266 0)
@@ -8401,7 +8401,7 @@
     (instances
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/5d48eec1-381e-4cbb-abac-13dba509fc03"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR064") (unit 1)
         )
       )
     )
@@ -8410,7 +8410,7 @@
   (symbol (lib_id "power:GND") (at 88.4023 150.7744 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 56657caf-8f2f-4c11-9097-e68781aecdbb)
-    (property "Reference" "#PWR050" (at 88.4023 157.1244 0)
+    (property "Reference" "#PWR075" (at 88.4023 157.1244 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 88.5293 155.1686 0)
@@ -8426,7 +8426,7 @@
     (instances
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/5d48eec1-381e-4cbb-abac-13dba509fc03"
-          (reference "#PWR050") (unit 1)
+          (reference "#PWR075") (unit 1)
         )
       )
     )
@@ -8435,7 +8435,7 @@
   (symbol (lib_id "power:GND") (at 247.0819 36.83 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 574e433c-0bbb-4a52-9500-c731a2338ce9)
-    (property "Reference" "#PWR069" (at 253.4319 36.83 0)
+    (property "Reference" "#PWR096" (at 253.4319 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 250.2569 36.83 90)
@@ -8451,7 +8451,7 @@
     (instances
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/5d48eec1-381e-4cbb-abac-13dba509fc03"
-          (reference "#PWR069") (unit 1)
+          (reference "#PWR096") (unit 1)
         )
       )
     )
@@ -8460,7 +8460,7 @@
   (symbol (lib_id "power:GND") (at 79.7239 168.0487 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 59024bb8-9b4c-47cc-909e-e2b83d450469)
-    (property "Reference" "#PWR043" (at 79.7239 174.3987 0)
+    (property "Reference" "#PWR069" (at 79.7239 174.3987 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 79.8509 172.4429 0)
@@ -8476,7 +8476,7 @@
     (instances
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/5d48eec1-381e-4cbb-abac-13dba509fc03"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR069") (unit 1)
         )
       )
     )
@@ -8485,7 +8485,7 @@
   (symbol (lib_id "power:GND") (at 79.8137 134.1767 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5bd307ba-a95e-491f-88c5-d7cfb2125710)
-    (property "Reference" "#PWR044" (at 79.8137 140.5267 0)
+    (property "Reference" "#PWR070" (at 79.8137 140.5267 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 79.9407 138.5709 0)
@@ -8501,7 +8501,7 @@
     (instances
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/5d48eec1-381e-4cbb-abac-13dba509fc03"
-          (reference "#PWR044") (unit 1)
+          (reference "#PWR070") (unit 1)
         )
       )
     )
@@ -8510,7 +8510,7 @@
   (symbol (lib_id "jlcpcb-basic-mlcc-0402:100nF") (at 88.4023 148.2344 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5d1fcd7e-3e47-4039-aa5d-d82c5517cf52)
-    (property "Reference" "C8" (at 90.7264 147.0286 0)
+    (property "Reference" "C25" (at 90.7264 147.0286 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 90.7264 149.4528 0)
@@ -8530,7 +8530,7 @@
     (instances
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/5d48eec1-381e-4cbb-abac-13dba509fc03"
-          (reference "C8") (unit 1)
+          (reference "C25") (unit 1)
         )
       )
     )
@@ -8539,7 +8539,7 @@
   (symbol (lib_id "power:GND") (at 101.854 24.384 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 637fc5c9-ac1e-4f89-8050-b4775ca95c82)
-    (property "Reference" "#PWR032" (at 108.204 24.384 0)
+    (property "Reference" "#PWR080" (at 108.204 24.384 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 106.4166 24.384 90)
@@ -8555,7 +8555,7 @@
     (instances
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/5d48eec1-381e-4cbb-abac-13dba509fc03"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR080") (unit 1)
         )
       )
     )
@@ -8564,7 +8564,7 @@
   (symbol (lib_id "Device:C_Small") (at 79.9592 148.2344 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 686da5ff-92b3-4959-a482-51c38bf8dc20)
-    (property "Reference" "C4" (at 82.296 147.066 0)
+    (property "Reference" "C21" (at 82.296 147.066 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 82.296 149.3774 0)
@@ -8584,7 +8584,7 @@
     (instances
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/5d48eec1-381e-4cbb-abac-13dba509fc03"
-          (reference "C4") (unit 1)
+          (reference "C21") (unit 1)
         )
       )
     )
@@ -8593,7 +8593,7 @@
   (symbol (lib_id "jlcpcb-basic-resistor-0402:2k") (at 256.6069 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6a299983-2cde-4c84-9fc7-ac2698587280)
-    (property "Reference" "R6" (at 258.1055 73.7179 0)
+    (property "Reference" "R18" (at 258.1055 73.7179 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2k" (at 258.1055 76.1421 0)
@@ -8613,7 +8613,7 @@
     (instances
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/5d48eec1-381e-4cbb-abac-13dba509fc03"
-          (reference "R6") (unit 1)
+          (reference "R18") (unit 1)
         )
       )
     )
@@ -8622,7 +8622,7 @@
   (symbol (lib_id "power:GND") (at 133.9249 65.913 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6ba34df2-985e-4f41-a79f-03e3314ac485)
-    (property "Reference" "#PWR034" (at 127.5749 65.913 0)
+    (property "Reference" "#PWR085" (at 127.5749 65.913 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 130.75 65.913 90)
@@ -8638,7 +8638,7 @@
     (instances
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/5d48eec1-381e-4cbb-abac-13dba509fc03"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR085") (unit 1)
         )
       )
     )
@@ -8647,7 +8647,7 @@
   (symbol (lib_id "jlcpcb-basic-mlcc-0402:100nF") (at 109.3961 130.3667 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 75a4ab2e-f74c-4f27-bf6a-fa24a8178977)
-    (property "Reference" "C14" (at 111.7202 129.1609 0)
+    (property "Reference" "C30" (at 111.7202 129.1609 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 111.7202 131.5851 0)
@@ -8667,7 +8667,7 @@
     (instances
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/5d48eec1-381e-4cbb-abac-13dba509fc03"
-          (reference "C14") (unit 1)
+          (reference "C30") (unit 1)
         )
       )
     )
@@ -8676,7 +8676,7 @@
   (symbol (lib_id "power:GND") (at 43.815 85.344 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7b8168e3-aacb-41e3-acab-30fb4c4a6919)
-    (property "Reference" "#PWR029" (at 43.815 91.694 0)
+    (property "Reference" "#PWR060" (at 43.815 91.694 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 43.815 89.9066 0)
@@ -8692,7 +8692,7 @@
     (instances
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/5d48eec1-381e-4cbb-abac-13dba509fc03"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR060") (unit 1)
         )
       )
     )
@@ -8701,7 +8701,7 @@
   (symbol (lib_id "Regulator_Linear:TPS76318") (at 39.5547 143.5747 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8eca2577-fb90-4c74-a00a-599ba914f8c4)
-    (property "Reference" "U2" (at 39.5547 134.8879 0)
+    (property "Reference" "U3" (at 39.5547 134.8879 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TPS76318" (at 39.5547 137.1993 0)
@@ -8724,7 +8724,7 @@
     (instances
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/5d48eec1-381e-4cbb-abac-13dba509fc03"
-          (reference "U2") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -8733,7 +8733,7 @@
   (symbol (lib_id "jlcpcb-basic-mlcc-0402:100nF") (at 88.2568 130.3667 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 92883164-ed57-4a1c-b67e-33a033cdcc56)
-    (property "Reference" "C7" (at 90.5809 129.1609 0)
+    (property "Reference" "C24" (at 90.5809 129.1609 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 90.5809 131.5851 0)
@@ -8753,7 +8753,7 @@
     (instances
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/5d48eec1-381e-4cbb-abac-13dba509fc03"
-          (reference "C7") (unit 1)
+          (reference "C24") (unit 1)
         )
       )
     )
@@ -8762,7 +8762,7 @@
   (symbol (lib_id "power:GND") (at 80.0066 185.9927 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9a5b384f-4915-4519-964a-3cdec8c749f0)
-    (property "Reference" "#PWR046" (at 80.0066 192.3427 0)
+    (property "Reference" "#PWR072" (at 80.0066 192.3427 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 80.1336 190.3869 0)
@@ -8778,7 +8778,7 @@
     (instances
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/5d48eec1-381e-4cbb-abac-13dba509fc03"
-          (reference "#PWR046") (unit 1)
+          (reference "#PWR072") (unit 1)
         )
       )
     )
@@ -8787,7 +8787,7 @@
   (symbol (lib_id "power:+1V8") (at 69.7992 143.1544 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9b934dab-df48-4222-91df-865bb355349a)
-    (property "Reference" "#PWR038" (at 69.7992 146.9644 0)
+    (property "Reference" "#PWR067" (at 69.7992 146.9644 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 70.1802 138.7602 0)
@@ -8803,7 +8803,7 @@
     (instances
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/5d48eec1-381e-4cbb-abac-13dba509fc03"
-          (reference "#PWR038") (unit 1)
+          (reference "#PWR067") (unit 1)
         )
       )
     )
@@ -8812,7 +8812,7 @@
   (symbol (lib_id "power:+5V") (at 261.8139 74.803 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9f581f06-d894-443e-ac18-30765f2efdb4)
-    (property "Reference" "#PWR071" (at 261.8139 78.613 0)
+    (property "Reference" "#PWR098" (at 261.8139 78.613 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 261.8139 71.1984 0)
@@ -8828,7 +8828,7 @@
     (instances
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/5d48eec1-381e-4cbb-abac-13dba509fc03"
-          (reference "#PWR071") (unit 1)
+          (reference "#PWR098") (unit 1)
         )
       )
     )
@@ -8837,7 +8837,7 @@
   (symbol (lib_id "power:GND") (at 98.5173 166.7787 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a67d5574-577a-4bbd-9d4e-c39929d9317b)
-    (property "Reference" "#PWR054" (at 98.5173 173.1287 0)
+    (property "Reference" "#PWR077" (at 98.5173 173.1287 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 98.6443 171.1729 0)
@@ -8853,7 +8853,7 @@
     (instances
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/5d48eec1-381e-4cbb-abac-13dba509fc03"
-          (reference "#PWR054") (unit 1)
+          (reference "#PWR077") (unit 1)
         )
       )
     )
@@ -8862,7 +8862,7 @@
   (symbol (lib_id "Device:C_Small") (at 28.1247 144.8447 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a7d423af-930c-4698-acea-37b3bb34a099)
-    (property "Reference" "C1" (at 25.7879 143.6763 0)
+    (property "Reference" "C17" (at 25.7879 143.6763 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 25.7879 145.9877 0)
@@ -8882,7 +8882,7 @@
     (instances
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/5d48eec1-381e-4cbb-abac-13dba509fc03"
-          (reference "C1") (unit 1)
+          (reference "C17") (unit 1)
         )
       )
     )
@@ -8891,7 +8891,7 @@
   (symbol (lib_id "power:GND") (at 196.2819 59.69 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a889af0d-5359-43aa-9ca2-fab6cb80ddd1)
-    (property "Reference" "#PWR064" (at 189.9319 59.69 0)
+    (property "Reference" "#PWR091" (at 189.9319 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 193.107 59.69 90)
@@ -8907,7 +8907,7 @@
     (instances
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/5d48eec1-381e-4cbb-abac-13dba509fc03"
-          (reference "#PWR064") (unit 1)
+          (reference "#PWR091") (unit 1)
         )
       )
     )
@@ -8916,7 +8916,7 @@
   (symbol (lib_id "jlcpcb-basic-mlcc-0402:100nF") (at 88.4497 182.1827 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b106646d-d29c-4d4f-8510-b992d14c0be9)
-    (property "Reference" "C9" (at 90.7738 180.9769 0)
+    (property "Reference" "C26" (at 90.7738 180.9769 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 90.7738 183.4011 0)
@@ -8936,7 +8936,7 @@
     (instances
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/5d48eec1-381e-4cbb-abac-13dba509fc03"
-          (reference "C9") (unit 1)
+          (reference "C26") (unit 1)
         )
       )
     )
@@ -8945,7 +8945,7 @@
   (symbol (lib_id "jlcpcb-basic-mlcc-0402:100nF") (at 98.5173 164.2387 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b6133a5c-46cd-4a98-919b-f3af6cdd2c70)
-    (property "Reference" "C11" (at 100.8414 163.0329 0)
+    (property "Reference" "C27" (at 100.8414 163.0329 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 100.8414 165.4571 0)
@@ -8965,7 +8965,7 @@
     (instances
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/5d48eec1-381e-4cbb-abac-13dba509fc03"
-          (reference "C11") (unit 1)
+          (reference "C27") (unit 1)
         )
       )
     )
@@ -8974,7 +8974,7 @@
   (symbol (lib_id "power:GND") (at 247.0819 52.07 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b6cac9c8-47a0-45a1-82cc-362596815426)
-    (property "Reference" "#PWR070" (at 253.4319 52.07 0)
+    (property "Reference" "#PWR097" (at 253.4319 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 250.2569 52.07 90)
@@ -8990,7 +8990,7 @@
     (instances
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/5d48eec1-381e-4cbb-abac-13dba509fc03"
-          (reference "#PWR070") (unit 1)
+          (reference "#PWR097") (unit 1)
         )
       )
     )
@@ -8999,7 +8999,7 @@
   (symbol (lib_id "power:GND") (at 39.5547 152.4647 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b748b78b-858e-46fd-af88-584bd0ee4e44)
-    (property "Reference" "#PWR047" (at 39.5547 158.8147 0)
+    (property "Reference" "#PWR059" (at 39.5547 158.8147 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 39.6817 156.8589 0)
@@ -9015,7 +9015,7 @@
     (instances
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/5d48eec1-381e-4cbb-abac-13dba509fc03"
-          (reference "#PWR047") (unit 1)
+          (reference "#PWR059") (unit 1)
         )
       )
     )
@@ -9024,7 +9024,7 @@
   (symbol (lib_id "power:GND") (at 98.6071 132.9067 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b97178b9-0fe8-4be3-84d3-287bb379e020)
-    (property "Reference" "#PWR055" (at 98.6071 139.2567 0)
+    (property "Reference" "#PWR078" (at 98.6071 139.2567 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 98.7341 137.3009 0)
@@ -9040,7 +9040,7 @@
     (instances
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/5d48eec1-381e-4cbb-abac-13dba509fc03"
-          (reference "#PWR055") (unit 1)
+          (reference "#PWR078") (unit 1)
         )
       )
     )
@@ -9049,7 +9049,7 @@
   (symbol (lib_id "power:GND") (at 47.244 100.584 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b9a91efd-81f6-41a5-b882-9edd21897939)
-    (property "Reference" "#PWR030" (at 40.894 100.584 0)
+    (property "Reference" "#PWR061" (at 40.894 100.584 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 42.6814 100.584 90)
@@ -9065,7 +9065,7 @@
     (instances
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/5d48eec1-381e-4cbb-abac-13dba509fc03"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR061") (unit 1)
         )
       )
     )
@@ -9074,7 +9074,7 @@
   (symbol (lib_id "Device:C_Small") (at 79.8137 130.3667 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bc648d4d-ec33-408d-91cb-c64daa3faead)
-    (property "Reference" "C3" (at 82.1505 129.1983 0)
+    (property "Reference" "C20" (at 82.1505 129.1983 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 82.1505 131.5097 0)
@@ -9094,7 +9094,7 @@
     (instances
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/5d48eec1-381e-4cbb-abac-13dba509fc03"
-          (reference "C3") (unit 1)
+          (reference "C20") (unit 1)
         )
       )
     )
@@ -9103,7 +9103,7 @@
   (symbol (lib_id "power:GND") (at 38.989 70.231 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bee780cc-a6ba-4723-959f-6d54c631c5f3)
-    (property "Reference" "#PWR028" (at 38.989 76.581 0)
+    (property "Reference" "#PWR058" (at 38.989 76.581 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 38.989 74.7936 0)
@@ -9119,7 +9119,7 @@
     (instances
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/5d48eec1-381e-4cbb-abac-13dba509fc03"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR058") (unit 1)
         )
       )
     )
@@ -9128,7 +9128,7 @@
   (symbol (lib_id "power:+1V8") (at 69.5639 159.1587 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bffda5ae-1666-4258-a6a2-b913ff810dc6)
-    (property "Reference" "#PWR036" (at 69.5639 162.9687 0)
+    (property "Reference" "#PWR065" (at 69.5639 162.9687 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 69.9449 154.7645 0)
@@ -9144,7 +9144,7 @@
     (instances
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/5d48eec1-381e-4cbb-abac-13dba509fc03"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR065") (unit 1)
         )
       )
     )
@@ -9153,7 +9153,7 @@
   (symbol (lib_id "jlcpcb-basic-mlcc-0402:100nF") (at 98.6071 130.3667 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c19138a8-29e6-4563-a228-ec018011e9b2)
-    (property "Reference" "C12" (at 100.9312 129.1609 0)
+    (property "Reference" "C28" (at 100.9312 129.1609 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 100.9312 131.5851 0)
@@ -9173,7 +9173,7 @@
     (instances
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/5d48eec1-381e-4cbb-abac-13dba509fc03"
-          (reference "C12") (unit 1)
+          (reference "C28") (unit 1)
         )
       )
     )
@@ -9182,7 +9182,7 @@
   (symbol (lib_id "jlcpcb-basic-resistor-0402:10k") (at 196.2819 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c40ee6b9-3cfc-45c5-b7a5-db3e053be56d)
-    (property "Reference" "R4" (at 197.7805 81.3379 0)
+    (property "Reference" "R16" (at 197.7805 81.3379 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 197.7805 83.7621 0)
@@ -9202,7 +9202,7 @@
     (instances
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/5d48eec1-381e-4cbb-abac-13dba509fc03"
-          (reference "R4") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
     )
@@ -9211,7 +9211,7 @@
   (symbol (lib_id "power:GND") (at 109.3961 132.9067 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d0781e42-5522-41da-baef-dd9c6261b84f)
-    (property "Reference" "#PWR059" (at 109.3961 139.2567 0)
+    (property "Reference" "#PWR081" (at 109.3961 139.2567 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 109.5231 137.3009 0)
@@ -9227,7 +9227,7 @@
     (instances
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/5d48eec1-381e-4cbb-abac-13dba509fc03"
-          (reference "#PWR059") (unit 1)
+          (reference "#PWR081") (unit 1)
         )
       )
     )
@@ -9236,7 +9236,7 @@
   (symbol (lib_id "jlcpcb-basic-mlcc-0402:100nF") (at 98.7526 148.2344 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d6459251-15f0-4927-bc9e-89e52d77eb78)
-    (property "Reference" "C13" (at 101.0767 147.0286 0)
+    (property "Reference" "C29" (at 101.0767 147.0286 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 101.0767 149.4528 0)
@@ -9256,7 +9256,7 @@
     (instances
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/5d48eec1-381e-4cbb-abac-13dba509fc03"
-          (reference "C13") (unit 1)
+          (reference "C29") (unit 1)
         )
       )
     )
@@ -9265,7 +9265,7 @@
   (symbol (lib_id "power:+3V3") (at 69.8466 177.1027 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d659ba3f-2366-4a53-9cf6-628c917b652c)
-    (property "Reference" "#PWR040" (at 69.8466 180.9127 0)
+    (property "Reference" "#PWR068" (at 69.8466 180.9127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 70.2276 172.7085 0)
@@ -9281,7 +9281,7 @@
     (instances
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/5d48eec1-381e-4cbb-abac-13dba509fc03"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR068") (unit 1)
         )
       )
     )
@@ -9327,7 +9327,7 @@
   (symbol (lib_id "power:GND") (at 134.5599 87.757 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d709cfd5-bab6-4857-a8cb-db94264e4c28)
-    (property "Reference" "#PWR035" (at 128.2099 87.757 0)
+    (property "Reference" "#PWR086" (at 128.2099 87.757 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 131.385 87.757 90)
@@ -9343,7 +9343,7 @@
     (instances
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/5d48eec1-381e-4cbb-abac-13dba509fc03"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR086") (unit 1)
         )
       )
     )
@@ -9352,7 +9352,7 @@
   (symbol (lib_id "easyeda2kicad:0402WGF8870TCE") (at 38.989 65.151 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d74f06b7-95d2-4302-98df-ff202092a723)
-    (property "Reference" "R2" (at 40.894 63.9389 90)
+    (property "Reference" "R14" (at 40.894 63.9389 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "887R" (at 40.894 66.3631 90)
@@ -9372,7 +9372,7 @@
     (instances
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/5d48eec1-381e-4cbb-abac-13dba509fc03"
-          (reference "R2") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
     )
@@ -9381,7 +9381,7 @@
   (symbol (lib_id "power:GND") (at 231.8064 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dd22c692-89e2-4cc6-961e-14682c50e982)
-    (property "Reference" "#PWR068" (at 231.8064 101.6 0)
+    (property "Reference" "#PWR095" (at 231.8064 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 231.9334 99.6442 0)
@@ -9397,7 +9397,7 @@
     (instances
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/5d48eec1-381e-4cbb-abac-13dba509fc03"
-          (reference "#PWR068") (unit 1)
+          (reference "#PWR095") (unit 1)
         )
       )
     )
@@ -9443,7 +9443,7 @@
   (symbol (lib_id "Device:C_Small") (at 48.4447 144.8447 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dec61d09-ae63-48a6-b241-06205f642c93)
-    (property "Reference" "C10" (at 50.7815 143.6763 0)
+    (property "Reference" "C18" (at 50.7815 143.6763 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 50.7815 145.9877 0)
@@ -9463,7 +9463,7 @@
     (instances
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/5d48eec1-381e-4cbb-abac-13dba509fc03"
-          (reference "C10") (unit 1)
+          (reference "C18") (unit 1)
         )
       )
     )
@@ -9472,7 +9472,7 @@
   (symbol (lib_id "easyeda2kicad2:ADV7513BSWZ") (at 74.549 65.024 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid df6f9001-72ed-464c-8be9-5d58748500e9)
-    (property "Reference" "U1" (at 74.549 16.129 0)
+    (property "Reference" "U4" (at 74.549 16.129 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "ADV7513BSWZ" (at 74.549 18.669 0)
@@ -9555,7 +9555,7 @@
     (instances
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/5d48eec1-381e-4cbb-abac-13dba509fc03"
-          (reference "U1") (unit 1)
+          (reference "U4") (unit 1)
         )
       )
     )
@@ -9564,7 +9564,7 @@
   (symbol (lib_id "power:GND") (at 196.2819 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dfff3ec4-9dd2-429e-b633-933915bc0fa9)
-    (property "Reference" "#PWR066" (at 196.2819 91.44 0)
+    (property "Reference" "#PWR093" (at 196.2819 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 196.4089 89.4842 0)
@@ -9580,7 +9580,7 @@
     (instances
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/5d48eec1-381e-4cbb-abac-13dba509fc03"
-          (reference "#PWR066") (unit 1)
+          (reference "#PWR093") (unit 1)
         )
       )
     )
@@ -9589,7 +9589,7 @@
   (symbol (lib_id "jlcpcb-basic-mlcc-0402:100nF") (at 224.2219 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e010960e-3878-4f31-9ddc-11012e7a4664)
-    (property "Reference" "C17" (at 217.1099 92.075 0)
+    (property "Reference" "C33" (at 217.1099 92.075 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 217.1099 94.4992 0)
@@ -9609,7 +9609,7 @@
     (instances
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/5d48eec1-381e-4cbb-abac-13dba509fc03"
-          (reference "C17") (unit 1)
+          (reference "C33") (unit 1)
         )
       )
     )
@@ -9618,7 +9618,7 @@
   (symbol (lib_id "power:GND") (at 196.2819 44.45 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e26c586f-d270-418a-bf2a-4160841d4195)
-    (property "Reference" "#PWR063" (at 189.9319 44.45 0)
+    (property "Reference" "#PWR090" (at 189.9319 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 193.107 44.45 90)
@@ -9634,7 +9634,7 @@
     (instances
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/5d48eec1-381e-4cbb-abac-13dba509fc03"
-          (reference "#PWR063") (unit 1)
+          (reference "#PWR090") (unit 1)
         )
       )
     )
@@ -9643,7 +9643,7 @@
   (symbol (lib_id "power:+3V3") (at 28.1247 139.7647 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ec6531b2-8b39-477c-8f28-c4e66176cc0f)
-    (property "Reference" "#PWR041" (at 28.1247 143.5747 0)
+    (property "Reference" "#PWR056" (at 28.1247 143.5747 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 28.5057 135.3705 0)
@@ -9659,7 +9659,7 @@
     (instances
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/5d48eec1-381e-4cbb-abac-13dba509fc03"
-          (reference "#PWR041") (unit 1)
+          (reference "#PWR056") (unit 1)
         )
       )
     )
@@ -9668,7 +9668,7 @@
   (symbol (lib_id "power:GND") (at 177.1049 65.913 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f3713812-213b-4a6b-8535-9de6fb15c017)
-    (property "Reference" "#PWR058" (at 183.4549 65.913 0)
+    (property "Reference" "#PWR088" (at 183.4549 65.913 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 180.2798 65.913 90)
@@ -9684,7 +9684,7 @@
     (instances
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/5d48eec1-381e-4cbb-abac-13dba509fc03"
-          (reference "#PWR058") (unit 1)
+          (reference "#PWR088") (unit 1)
         )
       )
     )
@@ -9759,7 +9759,7 @@
   (symbol (lib_id "power:+1V8") (at 69.6537 125.2867 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fd4a5b83-908d-417c-9e08-225d38389642)
-    (property "Reference" "#PWR037" (at 69.6537 129.0967 0)
+    (property "Reference" "#PWR066" (at 69.6537 129.0967 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 70.0347 120.8925 0)
@@ -9775,7 +9775,7 @@
     (instances
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/5d48eec1-381e-4cbb-abac-13dba509fc03"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR066") (unit 1)
         )
       )
     )
@@ -9784,7 +9784,7 @@
   (symbol (lib_id "power:GND") (at 28.1247 148.6547 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fdad099e-8165-4f2d-a952-c85209f74282)
-    (property "Reference" "#PWR042" (at 28.1247 155.0047 0)
+    (property "Reference" "#PWR057" (at 28.1247 155.0047 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 28.2517 153.0489 0)
@@ -9800,7 +9800,7 @@
     (instances
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/5d48eec1-381e-4cbb-abac-13dba509fc03"
-          (reference "#PWR042") (unit 1)
+          (reference "#PWR057") (unit 1)
         )
       )
     )

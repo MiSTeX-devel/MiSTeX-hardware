@@ -5978,10 +5978,10 @@
           (reference "RN1") (unit 1)
         )
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/8c1d97fc-c85e-4afc-840e-7429a199eff3/cbe700d5-28fb-44ad-a669-c9e6c7dd5ddf"
-          (reference "RN1") (unit 1)
+          (reference "RN6") (unit 1)
         )
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/8c1d97fc-c85e-4afc-840e-7429a199eff3/5343cc42-a3e0-4d70-bd9b-00dc43ec6d46"
-          (reference "RN1") (unit 1)
+          (reference "RN11") (unit 1)
         )
       )
     )
@@ -5990,7 +5990,7 @@
   (symbol (lib_id "jlcpcb-basic-resistor-0603:16k") (at 96.393 134.747 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2880af31-03b4-4c48-ae18-0b9033c222dc)
-    (property "Reference" "R16" (at 96.393 129.8661 90)
+    (property "Reference" "R23" (at 96.393 129.8661 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "16k" (at 96.393 132.2903 90)
@@ -6010,13 +6010,13 @@
     (instances
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/8c1d97fc-c85e-4afc-840e-7429a199eff3/0f313b2c-44f6-4c87-90b4-abbb81c512aa"
-          (reference "R16") (unit 1)
+          (reference "R23") (unit 1)
         )
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/8c1d97fc-c85e-4afc-840e-7429a199eff3/cbe700d5-28fb-44ad-a669-c9e6c7dd5ddf"
-          (reference "R16") (unit 1)
+          (reference "R24") (unit 1)
         )
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/8c1d97fc-c85e-4afc-840e-7429a199eff3/5343cc42-a3e0-4d70-bd9b-00dc43ec6d46"
-          (reference "R16") (unit 1)
+          (reference "R25") (unit 1)
         )
       )
     )
@@ -6054,10 +6054,10 @@
           (reference "RN2") (unit 1)
         )
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/8c1d97fc-c85e-4afc-840e-7429a199eff3/cbe700d5-28fb-44ad-a669-c9e6c7dd5ddf"
-          (reference "RN2") (unit 1)
+          (reference "RN7") (unit 1)
         )
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/8c1d97fc-c85e-4afc-840e-7429a199eff3/5343cc42-a3e0-4d70-bd9b-00dc43ec6d46"
-          (reference "RN2") (unit 1)
+          (reference "RN12") (unit 1)
         )
       )
     )
@@ -6095,10 +6095,10 @@
           (reference "RN4") (unit 1)
         )
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/8c1d97fc-c85e-4afc-840e-7429a199eff3/cbe700d5-28fb-44ad-a669-c9e6c7dd5ddf"
-          (reference "RN4") (unit 1)
+          (reference "RN9") (unit 1)
         )
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/8c1d97fc-c85e-4afc-840e-7429a199eff3/5343cc42-a3e0-4d70-bd9b-00dc43ec6d46"
-          (reference "RN4") (unit 1)
+          (reference "RN14") (unit 1)
         )
       )
     )
@@ -6107,7 +6107,7 @@
   (symbol (lib_id "easyeda2kicad:4D03WGJ0102T5E") (at 96.52 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d24f70d4-0dc5-4151-a992-b4cd6138f82a)
-    (property "Reference" "RN6" (at 96.52 111.5527 0)
+    (property "Reference" "RN5" (at 96.52 111.5527 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 96.52 113.9769 0)
@@ -6133,13 +6133,13 @@
     (instances
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/8c1d97fc-c85e-4afc-840e-7429a199eff3/0f313b2c-44f6-4c87-90b4-abbb81c512aa"
-          (reference "RN6") (unit 1)
+          (reference "RN5") (unit 1)
         )
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/8c1d97fc-c85e-4afc-840e-7429a199eff3/cbe700d5-28fb-44ad-a669-c9e6c7dd5ddf"
-          (reference "RN6") (unit 1)
+          (reference "RN10") (unit 1)
         )
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/8c1d97fc-c85e-4afc-840e-7429a199eff3/5343cc42-a3e0-4d70-bd9b-00dc43ec6d46"
-          (reference "RN6") (unit 1)
+          (reference "RN15") (unit 1)
         )
       )
     )
@@ -6177,10 +6177,10 @@
           (reference "RN3") (unit 1)
         )
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/8c1d97fc-c85e-4afc-840e-7429a199eff3/cbe700d5-28fb-44ad-a669-c9e6c7dd5ddf"
-          (reference "RN3") (unit 1)
+          (reference "RN8") (unit 1)
         )
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/8c1d97fc-c85e-4afc-840e-7429a199eff3/5343cc42-a3e0-4d70-bd9b-00dc43ec6d46"
-          (reference "RN3") (unit 1)
+          (reference "RN13") (unit 1)
         )
       )
     )
