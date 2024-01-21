@@ -906,10 +906,10 @@
       (effects (font (size 1.27 1.27)) (justify right))
     )
   )
-  (global_label "AUDIO_R" (shape input) (at 110.5184 87.757 180) (fields_autoplaced)
+  (global_label "AUDIO_R" (shape input) (at 110.363 87.757 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 790154ab-2f3c-46d2-a7a7-dc7fa2ab63ae)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 99.5761 87.757 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 99.4207 87.757 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
   )
@@ -970,8 +970,13 @@
     (pin "2" (uuid 2793e64c-4788-47c5-b5cb-a0c9f2a24531))
     (pin "1" (uuid 5a3396da-24b6-45ec-8e60-094a8bd5100b))
     (instances
+      (project "Audio"
+        (path "/40894532-c7c4-4c7b-a6a8-096cd4259f73"
+          (reference "C39") (unit 1)
+        )
+      )
       (project "QMTech-MiSTeX"
-        (path "/bf95850e-2fcb-4784-a603-f17fc357556b/50f4e969-5658-40d9-bc59-01ae07f4d758"
+        (path "/bf95850e-2fcb-4784-a603-f17fc357556b/1e65a514-c552-4463-908f-afe88949be5c"
           (reference "C39") (unit 1)
         )
       )
@@ -999,8 +1004,13 @@
     (pin "1" (uuid a34f1a23-402c-4733-9dc9-30ea08ba384c))
     (pin "2" (uuid 84b615da-a268-4041-81e1-01f5480613fa))
     (instances
+      (project "Audio"
+        (path "/40894532-c7c4-4c7b-a6a8-096cd4259f73"
+          (reference "C43") (unit 1)
+        )
+      )
       (project "QMTech-MiSTeX"
-        (path "/bf95850e-2fcb-4784-a603-f17fc357556b/50f4e969-5658-40d9-bc59-01ae07f4d758"
+        (path "/bf95850e-2fcb-4784-a603-f17fc357556b/1e65a514-c552-4463-908f-afe88949be5c"
           (reference "C43") (unit 1)
         )
       )
@@ -1028,8 +1038,13 @@
     (pin "2" (uuid b942a232-9cd4-43d4-a3ab-dc4d81544398))
     (pin "1" (uuid 0335d4df-4aa0-460b-aeb5-010547ac30e9))
     (instances
+      (project "Audio"
+        (path "/40894532-c7c4-4c7b-a6a8-096cd4259f73"
+          (reference "C42") (unit 1)
+        )
+      )
       (project "QMTech-MiSTeX"
-        (path "/bf95850e-2fcb-4784-a603-f17fc357556b/50f4e969-5658-40d9-bc59-01ae07f4d758"
+        (path "/bf95850e-2fcb-4784-a603-f17fc357556b/1e65a514-c552-4463-908f-afe88949be5c"
           (reference "C42") (unit 1)
         )
       )
@@ -1053,8 +1068,13 @@
     )
     (pin "1" (uuid 42ceb20c-3c8a-4e5a-90ae-050ec1f747a4))
     (instances
+      (project "Audio"
+        (path "/40894532-c7c4-4c7b-a6a8-096cd4259f73"
+          (reference "#PWR0141") (unit 1)
+        )
+      )
       (project "QMTech-MiSTeX"
-        (path "/bf95850e-2fcb-4784-a603-f17fc357556b/50f4e969-5658-40d9-bc59-01ae07f4d758"
+        (path "/bf95850e-2fcb-4784-a603-f17fc357556b/1e65a514-c552-4463-908f-afe88949be5c"
           (reference "#PWR0141") (unit 1)
         )
       )
@@ -1085,8 +1105,13 @@
     (pin "5" (uuid 3a7a1d99-53fa-48d7-bd0d-26bb6f95687e))
     (pin "4" (uuid a52c12d3-667f-4b63-af1a-3c6e2492ec9d))
     (instances
+      (project "Audio"
+        (path "/40894532-c7c4-4c7b-a6a8-096cd4259f73"
+          (reference "CN1") (unit 1)
+        )
+      )
       (project "QMTech-MiSTeX"
-        (path "/bf95850e-2fcb-4784-a603-f17fc357556b/50f4e969-5658-40d9-bc59-01ae07f4d758"
+        (path "/bf95850e-2fcb-4784-a603-f17fc357556b/1e65a514-c552-4463-908f-afe88949be5c"
           (reference "CN1") (unit 1)
         )
       )
@@ -1110,8 +1135,13 @@
     )
     (pin "1" (uuid 386a3402-fd6f-4af9-9a82-0545de8cf6b4))
     (instances
+      (project "Audio"
+        (path "/40894532-c7c4-4c7b-a6a8-096cd4259f73"
+          (reference "#PWR0139") (unit 1)
+        )
+      )
       (project "QMTech-MiSTeX"
-        (path "/bf95850e-2fcb-4784-a603-f17fc357556b/50f4e969-5658-40d9-bc59-01ae07f4d758"
+        (path "/bf95850e-2fcb-4784-a603-f17fc357556b/1e65a514-c552-4463-908f-afe88949be5c"
           (reference "#PWR0139") (unit 1)
         )
       )
@@ -1140,8 +1170,13 @@
     (pin "5" (uuid 80ac1a44-b005-4b62-918f-d796f226b37a))
     (pin "6" (uuid a0c2b2ec-fb3c-456a-96ef-230bb4a1167c))
     (instances
+      (project "Audio"
+        (path "/40894532-c7c4-4c7b-a6a8-096cd4259f73"
+          (reference "J9") (unit 1)
+        )
+      )
       (project "QMTech-MiSTeX"
-        (path "/bf95850e-2fcb-4784-a603-f17fc357556b/50f4e969-5658-40d9-bc59-01ae07f4d758"
+        (path "/bf95850e-2fcb-4784-a603-f17fc357556b/1e65a514-c552-4463-908f-afe88949be5c"
           (reference "J9") (unit 1)
         )
       )
@@ -1169,8 +1204,13 @@
     (pin "1" (uuid bddcdbea-18ea-46ca-9a66-a7d70092627f))
     (pin "2" (uuid b48e6b95-281c-416c-ac37-42042f503789))
     (instances
+      (project "Audio"
+        (path "/40894532-c7c4-4c7b-a6a8-096cd4259f73"
+          (reference "R45") (unit 1)
+        )
+      )
       (project "QMTech-MiSTeX"
-        (path "/bf95850e-2fcb-4784-a603-f17fc357556b/50f4e969-5658-40d9-bc59-01ae07f4d758"
+        (path "/bf95850e-2fcb-4784-a603-f17fc357556b/1e65a514-c552-4463-908f-afe88949be5c"
           (reference "R45") (unit 1)
         )
       )
@@ -1194,8 +1234,13 @@
     )
     (pin "1" (uuid 8a3d3667-e8c5-4eac-bfac-425adf0d88b0))
     (instances
+      (project "Audio"
+        (path "/40894532-c7c4-4c7b-a6a8-096cd4259f73"
+          (reference "#PWR0135") (unit 1)
+        )
+      )
       (project "QMTech-MiSTeX"
-        (path "/bf95850e-2fcb-4784-a603-f17fc357556b/50f4e969-5658-40d9-bc59-01ae07f4d758"
+        (path "/bf95850e-2fcb-4784-a603-f17fc357556b/1e65a514-c552-4463-908f-afe88949be5c"
           (reference "#PWR0135") (unit 1)
         )
       )
@@ -1219,8 +1264,13 @@
     )
     (pin "1" (uuid 595ff160-8528-4c64-9583-b7f16378f697))
     (instances
+      (project "Audio"
+        (path "/40894532-c7c4-4c7b-a6a8-096cd4259f73"
+          (reference "#PWR0140") (unit 1)
+        )
+      )
       (project "QMTech-MiSTeX"
-        (path "/bf95850e-2fcb-4784-a603-f17fc357556b/50f4e969-5658-40d9-bc59-01ae07f4d758"
+        (path "/bf95850e-2fcb-4784-a603-f17fc357556b/1e65a514-c552-4463-908f-afe88949be5c"
           (reference "#PWR0140") (unit 1)
         )
       )
@@ -1251,8 +1301,13 @@
     (pin "5" (uuid 9b670316-40b4-4bc1-9e7e-9f73a70ebd99))
     (pin "1" (uuid 8c44ebf9-2731-4266-917d-94b3dcd320fb))
     (instances
+      (project "Audio"
+        (path "/40894532-c7c4-4c7b-a6a8-096cd4259f73"
+          (reference "U5") (unit 1)
+        )
+      )
       (project "QMTech-MiSTeX"
-        (path "/bf95850e-2fcb-4784-a603-f17fc357556b/50f4e969-5658-40d9-bc59-01ae07f4d758"
+        (path "/bf95850e-2fcb-4784-a603-f17fc357556b/1e65a514-c552-4463-908f-afe88949be5c"
           (reference "U5") (unit 1)
         )
       )
@@ -1280,8 +1335,13 @@
     (pin "1" (uuid 2b0ce398-73a0-48ed-8086-8ca147fedafd))
     (pin "2" (uuid 45f8c625-ce46-4e56-a24c-644f2fd8b2bf))
     (instances
+      (project "Audio"
+        (path "/40894532-c7c4-4c7b-a6a8-096cd4259f73"
+          (reference "R42") (unit 1)
+        )
+      )
       (project "QMTech-MiSTeX"
-        (path "/bf95850e-2fcb-4784-a603-f17fc357556b/50f4e969-5658-40d9-bc59-01ae07f4d758"
+        (path "/bf95850e-2fcb-4784-a603-f17fc357556b/1e65a514-c552-4463-908f-afe88949be5c"
           (reference "R42") (unit 1)
         )
       )
@@ -1306,8 +1366,13 @@
     (pin "1" (uuid 37e9b32f-012f-458e-83fd-94e51b79d340))
     (pin "2" (uuid 81773b1e-e3a2-4bcb-a3d4-0a8d95cac1a9))
     (instances
+      (project "Audio"
+        (path "/40894532-c7c4-4c7b-a6a8-096cd4259f73"
+          (reference "R47") (unit 1)
+        )
+      )
       (project "QMTech-MiSTeX"
-        (path "/bf95850e-2fcb-4784-a603-f17fc357556b/50f4e969-5658-40d9-bc59-01ae07f4d758"
+        (path "/bf95850e-2fcb-4784-a603-f17fc357556b/1e65a514-c552-4463-908f-afe88949be5c"
           (reference "R47") (unit 1)
         )
       )
@@ -1335,8 +1400,13 @@
     (pin "2" (uuid e4fd30f2-295c-4a65-81de-9af70ff94433))
     (pin "1" (uuid 6d70cddc-4637-4363-9694-d37671c8af39))
     (instances
+      (project "Audio"
+        (path "/40894532-c7c4-4c7b-a6a8-096cd4259f73"
+          (reference "C40") (unit 1)
+        )
+      )
       (project "QMTech-MiSTeX"
-        (path "/bf95850e-2fcb-4784-a603-f17fc357556b/50f4e969-5658-40d9-bc59-01ae07f4d758"
+        (path "/bf95850e-2fcb-4784-a603-f17fc357556b/1e65a514-c552-4463-908f-afe88949be5c"
           (reference "C40") (unit 1)
         )
       )
@@ -1364,8 +1434,13 @@
     (pin "1" (uuid 36f9a883-ed08-45b3-bcc2-aa90af953a7b))
     (pin "2" (uuid c9052ffa-3ae4-44c8-a76a-785d65795b1f))
     (instances
+      (project "Audio"
+        (path "/40894532-c7c4-4c7b-a6a8-096cd4259f73"
+          (reference "R44") (unit 1)
+        )
+      )
       (project "QMTech-MiSTeX"
-        (path "/bf95850e-2fcb-4784-a603-f17fc357556b/50f4e969-5658-40d9-bc59-01ae07f4d758"
+        (path "/bf95850e-2fcb-4784-a603-f17fc357556b/1e65a514-c552-4463-908f-afe88949be5c"
           (reference "R44") (unit 1)
         )
       )
@@ -1393,8 +1468,13 @@
     (pin "2" (uuid 3787e943-663d-4992-8f2e-265c6c2fa6b0))
     (pin "1" (uuid 9c538e0d-ac1e-4eb6-91a0-4250fd4acf84))
     (instances
+      (project "Audio"
+        (path "/40894532-c7c4-4c7b-a6a8-096cd4259f73"
+          (reference "C38") (unit 1)
+        )
+      )
       (project "QMTech-MiSTeX"
-        (path "/bf95850e-2fcb-4784-a603-f17fc357556b/50f4e969-5658-40d9-bc59-01ae07f4d758"
+        (path "/bf95850e-2fcb-4784-a603-f17fc357556b/1e65a514-c552-4463-908f-afe88949be5c"
           (reference "C38") (unit 1)
         )
       )
@@ -1418,8 +1498,13 @@
     )
     (pin "1" (uuid dd89c683-00cd-4f1a-90ec-a452c11a5e69))
     (instances
+      (project "Audio"
+        (path "/40894532-c7c4-4c7b-a6a8-096cd4259f73"
+          (reference "#PWR0142") (unit 1)
+        )
+      )
       (project "QMTech-MiSTeX"
-        (path "/bf95850e-2fcb-4784-a603-f17fc357556b/50f4e969-5658-40d9-bc59-01ae07f4d758"
+        (path "/bf95850e-2fcb-4784-a603-f17fc357556b/1e65a514-c552-4463-908f-afe88949be5c"
           (reference "#PWR0142") (unit 1)
         )
       )
@@ -1447,8 +1532,13 @@
     (pin "1" (uuid 1a25fe36-4577-45ae-b78b-8b5c582fa692))
     (pin "2" (uuid 73ec83e7-3ff3-4874-a3d3-ebef3d6c4e32))
     (instances
+      (project "Audio"
+        (path "/40894532-c7c4-4c7b-a6a8-096cd4259f73"
+          (reference "R46") (unit 1)
+        )
+      )
       (project "QMTech-MiSTeX"
-        (path "/bf95850e-2fcb-4784-a603-f17fc357556b/50f4e969-5658-40d9-bc59-01ae07f4d758"
+        (path "/bf95850e-2fcb-4784-a603-f17fc357556b/1e65a514-c552-4463-908f-afe88949be5c"
           (reference "R46") (unit 1)
         )
       )
@@ -1476,8 +1566,13 @@
     (pin "1" (uuid 85626d5d-ceeb-48fe-b838-e5116bcdfef9))
     (pin "2" (uuid 27e53b05-aee2-41b3-bb84-157533ecbfa3))
     (instances
+      (project "Audio"
+        (path "/40894532-c7c4-4c7b-a6a8-096cd4259f73"
+          (reference "R43") (unit 1)
+        )
+      )
       (project "QMTech-MiSTeX"
-        (path "/bf95850e-2fcb-4784-a603-f17fc357556b/50f4e969-5658-40d9-bc59-01ae07f4d758"
+        (path "/bf95850e-2fcb-4784-a603-f17fc357556b/1e65a514-c552-4463-908f-afe88949be5c"
           (reference "R43") (unit 1)
         )
       )
@@ -1505,8 +1600,13 @@
     (pin "2" (uuid b03dd0bf-6c61-4837-9517-1c21dd658d2a))
     (pin "1" (uuid 36b8fc5c-4b22-4b3c-9c6b-d24a152dea1f))
     (instances
+      (project "Audio"
+        (path "/40894532-c7c4-4c7b-a6a8-096cd4259f73"
+          (reference "C41") (unit 1)
+        )
+      )
       (project "QMTech-MiSTeX"
-        (path "/bf95850e-2fcb-4784-a603-f17fc357556b/50f4e969-5658-40d9-bc59-01ae07f4d758"
+        (path "/bf95850e-2fcb-4784-a603-f17fc357556b/1e65a514-c552-4463-908f-afe88949be5c"
           (reference "C41") (unit 1)
         )
       )
@@ -1530,8 +1630,13 @@
     )
     (pin "1" (uuid f443f5fb-1fcf-4730-a914-8b3d619a7a5e))
     (instances
+      (project "Audio"
+        (path "/40894532-c7c4-4c7b-a6a8-096cd4259f73"
+          (reference "#PWR0137") (unit 1)
+        )
+      )
       (project "QMTech-MiSTeX"
-        (path "/bf95850e-2fcb-4784-a603-f17fc357556b/50f4e969-5658-40d9-bc59-01ae07f4d758"
+        (path "/bf95850e-2fcb-4784-a603-f17fc357556b/1e65a514-c552-4463-908f-afe88949be5c"
           (reference "#PWR0137") (unit 1)
         )
       )
@@ -1559,8 +1664,13 @@
     (pin "2" (uuid 47051815-c196-459b-92c4-70e8f724b33a))
     (pin "1" (uuid 750e4216-c9c3-4e5d-bcd5-7694b8ebef15))
     (instances
+      (project "Audio"
+        (path "/40894532-c7c4-4c7b-a6a8-096cd4259f73"
+          (reference "C37") (unit 1)
+        )
+      )
       (project "QMTech-MiSTeX"
-        (path "/bf95850e-2fcb-4784-a603-f17fc357556b/50f4e969-5658-40d9-bc59-01ae07f4d758"
+        (path "/bf95850e-2fcb-4784-a603-f17fc357556b/1e65a514-c552-4463-908f-afe88949be5c"
           (reference "C37") (unit 1)
         )
       )
@@ -1584,8 +1694,13 @@
     )
     (pin "1" (uuid 3b1ffee7-1e4f-47fb-bb3a-45dd4937055e))
     (instances
+      (project "Audio"
+        (path "/40894532-c7c4-4c7b-a6a8-096cd4259f73"
+          (reference "#PWR0136") (unit 1)
+        )
+      )
       (project "QMTech-MiSTeX"
-        (path "/bf95850e-2fcb-4784-a603-f17fc357556b/50f4e969-5658-40d9-bc59-01ae07f4d758"
+        (path "/bf95850e-2fcb-4784-a603-f17fc357556b/1e65a514-c552-4463-908f-afe88949be5c"
           (reference "#PWR0136") (unit 1)
         )
       )
@@ -1609,8 +1724,13 @@
     )
     (pin "1" (uuid 8666daa4-7a29-4ea5-973d-8d1e3b43001f))
     (instances
+      (project "Audio"
+        (path "/40894532-c7c4-4c7b-a6a8-096cd4259f73"
+          (reference "#PWR0134") (unit 1)
+        )
+      )
       (project "QMTech-MiSTeX"
-        (path "/bf95850e-2fcb-4784-a603-f17fc357556b/50f4e969-5658-40d9-bc59-01ae07f4d758"
+        (path "/bf95850e-2fcb-4784-a603-f17fc357556b/1e65a514-c552-4463-908f-afe88949be5c"
           (reference "#PWR0134") (unit 1)
         )
       )
