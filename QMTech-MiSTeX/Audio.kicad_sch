@@ -5,6 +5,67 @@
   (paper "A4")
 
   (lib_symbols
+    (symbol "CL31A107MQHNNNE_1" (in_bom yes) (on_board yes)
+      (property "Reference" "C" (at 0 5.08 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "CL31A107MQHNNNE" (at 0 -5.08 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "easyeda2kicad:C1206" (at 0 -7.62 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL31A107MQHNNNE_100uF-107-20-6-3V_C15008.html" (at 0 -10.16 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "LCSC Part" "C15008" (at 0 -12.7 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "CL31A107MQHNNNE_1_0_1"
+        (polyline
+          (pts
+            (xy -1.27 0)
+            (xy -0.51 0)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -0.51 2.03)
+            (xy -0.51 -2.03)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.51 0)
+            (xy 1.27 0)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.51 2.03)
+            (xy 0.51 -2.03)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "CL31A107MQHNNNE_1_1_1"
+        (pin passive line (at -3.81 0 0) (length 2.54)
+          (name "1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 3.81 0 180) (length 2.54)
+          (name "2" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "Connector:Conn_01x06_Male" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 0 7.62 0)
         (effects (font (size 1.27 1.27)))
@@ -177,7 +238,7 @@
         )
       )
     )
-    (symbol "easyeda2kicad:CL31A107MQHNNNE" (pin_names hide) (in_bom yes) (on_board yes)
+    (symbol "easyeda2kicad:CL31A107MQHNNNE" (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0 5.08 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -226,11 +287,13 @@
           (stroke (width 0) (type default))
           (fill (type none))
         )
-        (pin input line (at -3.81 0 0) (length 2.54)
+      )
+      (symbol "CL31A107MQHNNNE_1_1"
+        (pin passive line (at -3.81 0 0) (length 2.54)
           (name "1" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
-        (pin input line (at 3.81 0 180) (length 2.54)
+        (pin passive line (at 3.81 0 180) (length 2.54)
           (name "2" (effects (font (size 1.27 1.27))))
           (number "2" (effects (font (size 1.27 1.27))))
         )
@@ -337,7 +400,7 @@
       )
     )
     (symbol "easyeda2kicad:ZGY133_T10(PLT)" (in_bom yes) (on_board yes)
-      (property "Reference" "U" (at 0 10.16 0)
+      (property "Reference" "J" (at 0 10.16 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Value" "ZGY133/T10(PLT)" (at 0 -10.16 0)
@@ -677,6 +740,7 @@
     (uuid d6b7cbda-7781-43cb-9e1f-f0a045881bca)
   )
 
+  (no_connect (at 186.9575 90.1079) (uuid 184ccfc1-3f6a-4ebd-8ad4-e46a8da0f509))
   (no_connect (at 184.6834 141.224) (uuid c3c5c130-c6b1-4f1d-b641-d03ab62a5589))
   (no_connect (at 184.6834 138.684) (uuid e6001f0d-05d5-43f4-956e-21b9854a2f57))
 
@@ -1017,7 +1081,7 @@
     )
   )
 
-  (symbol (lib_id "easyeda2kicad:CL31A107MQHNNNE") (at 159.893 97.917 0) (unit 1)
+  (symbol (lib_name "CL31A107MQHNNNE_1") (lib_id "easyeda2kicad:CL31A107MQHNNNE") (at 159.893 97.917 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 30983932-0015-45a3-9d27-42e460e19779)
     (property "Reference" "C42" (at 159.893 91.8697 0)
@@ -1075,7 +1139,7 @@
       )
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/1e65a514-c552-4463-908f-afe88949be5c"
-          (reference "#PWR0141") (unit 1)
+          (reference "#PWR0138") (unit 1)
         )
       )
     )
@@ -1142,7 +1206,7 @@
       )
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/1e65a514-c552-4463-908f-afe88949be5c"
-          (reference "#PWR0139") (unit 1)
+          (reference "#PWR0142") (unit 1)
         )
       )
     )
@@ -1177,7 +1241,7 @@
       )
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/1e65a514-c552-4463-908f-afe88949be5c"
-          (reference "J9") (unit 1)
+          (reference "J11") (unit 1)
         )
       )
     )
@@ -1211,7 +1275,7 @@
       )
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/1e65a514-c552-4463-908f-afe88949be5c"
-          (reference "R45") (unit 1)
+          (reference "R50") (unit 1)
         )
       )
     )
@@ -1241,7 +1305,7 @@
       )
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/1e65a514-c552-4463-908f-afe88949be5c"
-          (reference "#PWR0135") (unit 1)
+          (reference "#PWR0139") (unit 1)
         )
       )
     )
@@ -1271,7 +1335,7 @@
       )
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/1e65a514-c552-4463-908f-afe88949be5c"
-          (reference "#PWR0140") (unit 1)
+          (reference "#PWR0143") (unit 1)
         )
       )
     )
@@ -1342,7 +1406,7 @@
       )
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/1e65a514-c552-4463-908f-afe88949be5c"
-          (reference "R42") (unit 1)
+          (reference "R47") (unit 1)
         )
       )
     )
@@ -1373,7 +1437,7 @@
       )
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/1e65a514-c552-4463-908f-afe88949be5c"
-          (reference "R47") (unit 1)
+          (reference "R51") (unit 1)
         )
       )
     )
@@ -1441,7 +1505,7 @@
       )
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/1e65a514-c552-4463-908f-afe88949be5c"
-          (reference "R44") (unit 1)
+          (reference "R49") (unit 1)
         )
       )
     )
@@ -1505,7 +1569,7 @@
       )
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/1e65a514-c552-4463-908f-afe88949be5c"
-          (reference "#PWR0142") (unit 1)
+          (reference "#PWR0137") (unit 1)
         )
       )
     )
@@ -1539,7 +1603,7 @@
       )
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/1e65a514-c552-4463-908f-afe88949be5c"
-          (reference "R46") (unit 1)
+          (reference "R52") (unit 1)
         )
       )
     )
@@ -1573,7 +1637,7 @@
       )
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/1e65a514-c552-4463-908f-afe88949be5c"
-          (reference "R43") (unit 1)
+          (reference "R48") (unit 1)
         )
       )
     )
@@ -1637,7 +1701,7 @@
       )
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/1e65a514-c552-4463-908f-afe88949be5c"
-          (reference "#PWR0137") (unit 1)
+          (reference "#PWR0141") (unit 1)
         )
       )
     )
@@ -1701,7 +1765,7 @@
       )
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/1e65a514-c552-4463-908f-afe88949be5c"
-          (reference "#PWR0136") (unit 1)
+          (reference "#PWR0140") (unit 1)
         )
       )
     )
@@ -1731,7 +1795,7 @@
       )
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/1e65a514-c552-4463-908f-afe88949be5c"
-          (reference "#PWR0134") (unit 1)
+          (reference "#PWR0136") (unit 1)
         )
       )
     )
