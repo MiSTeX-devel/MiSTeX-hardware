@@ -9048,10 +9048,10 @@
     (uuid ffd4f08f-19ca-43ae-8a32-765a19c6ada7)
   )
 
-  (global_label "SNAC_MODE" (shape input) (at 181.991 79.9846 0) (fields_autoplaced)
+  (global_label "BTN_OSD" (shape input) (at 181.991 79.9846 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 01c1005d-e286-4ffb-acf0-9553e51633ad)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 196.0433 79.9846 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 193.417 79.9846 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
   )
