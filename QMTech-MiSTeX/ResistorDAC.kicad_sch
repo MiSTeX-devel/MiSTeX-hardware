@@ -4,6 +4,10 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Weighted Resistor DAC")
+  )
+
   (lib_symbols
     (symbol "4D03WGJ0102T5E_1" (in_bom yes) (on_board yes)
       (property "Reference" "RN" (at 0 8.89 0)
