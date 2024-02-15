@@ -11593,9 +11593,6 @@
     (property "Datasheet" "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF0000T5E_C21189.pdf" (at 217.17 93.98 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C21189" (at 217.17 93.98 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
     (pin "2" (uuid 9a398d05-a917-4f7e-8abe-9e6d38670ebf))
     (pin "1" (uuid 7651dfea-f5c5-4390-ad26-d985ab50c6d5))
     (instances
