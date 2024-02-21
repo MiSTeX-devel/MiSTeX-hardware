@@ -10825,6 +10825,31 @@
     )
   )
 
+  (symbol (lib_id "power:GND") (at 251.2568 105.8672 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 464bc5c2-0295-40eb-8fef-5eae7e9d6eb3)
+    (property "Reference" "#PWR0199" (at 251.2568 112.2172 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 251.3838 110.2614 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 251.2568 105.8672 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 251.2568 105.8672 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid dce148f4-7fec-4f5a-9818-6877325427e4))
+    (instances
+      (project "QMTech-MiSTeX"
+        (path "/bf95850e-2fcb-4784-a603-f17fc357556b/cce2b405-ae09-44af-ba42-d113d6ffe521"
+          (reference "#PWR0199") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:GND") (at 237.6678 49.2506 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 495bd98c-6252-4c0a-b3ad-5ffe340a4b1e)
@@ -11386,6 +11411,31 @@
       (project "QMTech-MiSTeX"
         (path "/bf95850e-2fcb-4784-a603-f17fc357556b/cce2b405-ae09-44af-ba42-d113d6ffe521"
           (reference "R44") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:TestPoint_Flag") (at 251.2568 105.8672 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 6991d3d6-b524-466a-8be8-75f41c5fb61f)
+    (property "Reference" "TP25" (at 257.8608 103.2581 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "TestPoint_Flag" (at 257.8608 105.6823 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm" (at 256.3368 105.8672 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 256.3368 105.8672 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 33380c96-21d7-4561-938c-f10107450586))
+    (instances
+      (project "QMTech-MiSTeX"
+        (path "/bf95850e-2fcb-4784-a603-f17fc357556b/cce2b405-ae09-44af-ba42-d113d6ffe521"
+          (reference "TP25") (unit 1)
         )
       )
     )
