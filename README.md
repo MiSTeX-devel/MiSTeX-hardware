@@ -7,6 +7,8 @@ baseboard is the current recommended platform. It can be used with Raspberry Pi 
 form factor SBCs and QMTech form factor core boards.
 Status: The `rev2` revision has been manufactured and tested working.
 
+![QMTech-MiSTeX Baseboard](https://github.com/MiSTeX-devel/MiSTeX-hardware/assets/148607/9e7d161b-50ad-462c-80ce-e295d9748793)
+
 ### Using the Raspberry Pi Zero with MiSTeX, with a generic FPGA board
 To connect the Raspberry Pi Zero to the FPGA board of your choice,
 the pin mappings can be found in two places:
