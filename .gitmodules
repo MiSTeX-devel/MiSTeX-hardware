@@ -1,0 +1,3 @@
+[submodule "easyeda2kicad"]
+	path = easyeda2kicad
+	url = https://github.com/hansfbaier/easyeda2kicad.git
