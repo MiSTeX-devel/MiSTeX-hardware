@@ -14,5 +14,13 @@ but I have not tried those, so do that at your own risk.
                                  so you need to check if the placements are good)
 9. PCBA Qty: I recommend 5, because it only costs about 20% more and does not waste PCBs, but use 2 at your own discretion.
 10. Make sure `Assemble top side`  is chosen
-11. Click `Confirm` 
-   
+11. Click `Confirm`
+12. A PCB viewer will come up, press 'Next'
+13. Select `production_files/BOM-QMTech-MiSTeX.csv`  as BOM file and `production_files/CPL-QMTech-MiSTeX.csv` as CPL file
+14. Press `Process BOM & CPL`
+15. A list of parts should come up. Make sure they are all available and press `Next`
+16. A window with the component placements comes up. Note that some connectors (USB-C, VGA and TOSLINK)
+    can be out of place. Just leave them. A JLCPCB engineer will fix those, and then ask you for review
+    after the order has been submitted (Confirm parts placement).
+17. Press 'Save to Cart'
+18. You can then Check out our cart and order the PCBs
