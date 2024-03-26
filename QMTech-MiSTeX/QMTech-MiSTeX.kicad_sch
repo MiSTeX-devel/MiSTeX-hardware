@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "MiSTeX baseboard for QMTech XC7A100T and XC7K325T")
-		(date "2024-02-15")
+		(date "2024-03-26")
 		(rev "rev2")
 		(company "Hans Baier")
 	)
@@ -8789,20 +8789,12 @@
 		(uuid "857f5363-b16b-4e8b-af79-35d615fab079")
 	)
 	(no_connect
-		(at 89.154 39.4208)
-		(uuid "ac3e0263-9afc-4608-b32d-722d8bb9110c")
-	)
-	(no_connect
 		(at 74.0156 159.5628)
 		(uuid "b0c6021c-99b4-491a-ae73-23351d1f7063")
 	)
 	(no_connect
 		(at 74.0156 167.1828)
 		(uuid "bb922485-ea83-4fc8-ba8a-09b8c7ca3bf2")
-	)
-	(no_connect
-		(at 121.412 121.6406)
-		(uuid "bee113c8-c738-42d5-91b8-1448804c6f52")
 	)
 	(no_connect
 		(at 279.4 107.823)
@@ -9309,6 +9301,16 @@
 			(type default)
 		)
 		(uuid "24464c6e-7fce-4791-bdac-b405c29b3ecd")
+	)
+	(wire
+		(pts
+			(xy 126.492 121.6406) (xy 128.8429 121.6406)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24e2232c-7500-47ea-906f-f5aedad61732")
 	)
 	(wire
 		(pts
@@ -10212,6 +10214,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.1936 39.4208) (xy 89.154 39.4208)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eac9a83-7f4c-410e-956d-f3d83cf3a0c7")
+	)
+	(wire
+		(pts
 			(xy 59.9186 131.0132) (xy 50.3936 131.0132)
 		)
 		(stroke
@@ -10379,6 +10391,16 @@
 			(type default)
 		)
 		(uuid "7ed70c8c-1dd6-4f82-8080-e52a82816391")
+	)
+	(wire
+		(pts
+			(xy 128.8429 121.6406) (xy 128.8429 118.8666)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ff0aa9a-b186-4e1d-8fb6-4c5ff01c6acf")
 	)
 	(wire
 		(pts
@@ -11022,7 +11044,7 @@
 	)
 	(wire
 		(pts
-			(xy 141.1132 131.1148) (xy 151.7396 131.1148)
+			(xy 141.1132 151.13) (xy 151.7396 151.13)
 		)
 		(stroke
 			(width 0)
@@ -11049,6 +11071,16 @@
 			(type default)
 		)
 		(uuid "ad4189bf-de58-45ab-a15e-13aaf781a70d")
+	)
+	(wire
+		(pts
+			(xy 139.7 147.32) (xy 151.7396 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae00a915-8422-49a7-80f5-06b66814dd79")
 	)
 	(wire
 		(pts
@@ -17660,6 +17692,17 @@
 		)
 		(uuid "0306b411-de2e-4203-889d-7ac679ce1278")
 	)
+	(label "USB_BOOT_N"
+		(at 90.0058 39.4208 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "08b5810e-904c-4748-968d-f171a43099c4")
+	)
 	(label "RAM_DQ0"
 		(at 122.7097 49.5046 180)
 		(fields_autoplaced yes)
@@ -17969,7 +18012,7 @@
 		(uuid "3868d346-8551-4bdf-ba35-a13af1bf208c")
 	)
 	(label "PICO_RUN"
-		(at 150.8878 131.1148 180)
+		(at 150.8878 151.13 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18308,6 +18351,17 @@
 			(justify left bottom)
 		)
 		(uuid "80c8b618-5788-43ad-9494-314269556143")
+	)
+	(label "USB_BOOT_N"
+		(at 150.8878 147.32 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "851df82a-1997-42a1-9397-2d563d11c9d2")
 	)
 	(label "RAM_RAS"
 		(at 145.1034 82.5246 180)
@@ -20786,7 +20840,7 @@
 		(at 128.651 57.1246 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "04c1044c-389d-4298-9edb-949b36f0b646")
@@ -21040,7 +21094,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "0502979d-96ef-4390-b94a-11421c51ba84")
@@ -21309,7 +21363,7 @@
 		(at 45.974 26.7208 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "0a1dad85-0b43-46e6-8534-d34bd268b44c")
@@ -22136,7 +22190,7 @@
 		(at 126.8984 189.3824 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -22392,6 +22446,72 @@
 			(project "QMTech-MiSTeX"
 				(path "/bf95850e-2fcb-4784-a603-f17fc357556b"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 128.8429 118.8666 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30aad2f4-79b1-4d36-a260-b835af4fc30d")
+		(property "Reference" "#PWR0200"
+			(at 128.8429 122.6766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 128.8429 115.262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.8429 118.8666 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.8429 118.8666 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 128.8429 118.8666 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "674482ba-7ff1-4a2b-bfe3-ea6a05f895d2")
+		)
+		(instances
+			(project "QMTech-MiSTeX"
+				(path "/bf95850e-2fcb-4784-a603-f17fc357556b"
+					(reference "#PWR0200")
 					(unit 1)
 				)
 			)
@@ -23133,7 +23253,7 @@
 		(at 223.393 148.844 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -23340,7 +23460,7 @@
 		(at 101.4476 80.3656 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -23537,7 +23657,7 @@
 		(at 116.9501 189.2476 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -24364,9 +24484,9 @@
 		(at 217.17 93.98 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "7852de75-14f5-4571-82ba-645ce9be3d01")
 		(property "Reference" "R51"
@@ -24917,7 +25037,7 @@
 		(at 64.9986 110.6932 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "8ea390cf-7fda-4a12-9fac-1aa7bec354c3")
@@ -25571,9 +25691,9 @@
 		(at 37.719 104.267 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "9990a2dc-bf48-4e44-8d0a-27fe9ee2f430")
 		(property "Reference" "R2"
@@ -26180,7 +26300,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "a7fe9a51-bfb8-4878-b7a8-bfb894601d53")
@@ -26480,7 +26600,7 @@
 		(at 243.84 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -26855,7 +26975,7 @@
 		(at 174.371 57.1246 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -27174,7 +27294,7 @@
 		(at 23.749 17.78 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -28210,7 +28330,7 @@
 		(at 136.5308 189.2245 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -28497,6 +28617,83 @@
 		)
 	)
 	(symbol
+		(lib_id "jlcpcb-basic-resistor-0805:0R")
+		(at 123.952 121.6406 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "e1e2f2c2-f97d-44cb-b050-fe971a6fddd8")
+		(property "Reference" "R75"
+			(at 123.952 116.7595 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 123.952 119.1838 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "R_0805_2012Metric"
+			(at 123.952 123.4186 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F0000T5E_C17477.pdf"
+			(at 123.952 121.6406 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 123.952 121.6406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17477"
+			(at 123.952 121.6406 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "065e3572-a4b1-486f-a2a4-c875292d1c5d")
+		)
+		(pin "2"
+			(uuid "169ed989-447d-42bd-a767-1a4617dc87ec")
+		)
+		(instances
+			(project "QMTech-MiSTeX"
+				(path "/bf95850e-2fcb-4784-a603-f17fc357556b"
+					(reference "R75")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "jlcpcb-basic-resistor-0402:51R")
 		(at 38.354 54.6608 90)
 		(unit 1)
@@ -28642,7 +28839,7 @@
 		(at 101.5746 17.5514 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -29017,7 +29214,7 @@
 		(at 145.6013 189.019 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -29152,7 +29349,7 @@
 		(at 22.9108 79.6544 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -29217,9 +29414,9 @@
 		(at 37.719 127.381 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f4356e07-7290-4643-9deb-90de4059810a")
 		(property "Reference" "R4"
@@ -29732,7 +29929,7 @@
 			)
 		)
 		(pin "RUN" input
-			(at 151.7396 131.1148 180)
+			(at 151.7396 151.13 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29850,6 +30047,16 @@
 				(justify left)
 			)
 			(uuid "4144f51a-9e15-41ed-b5a5-f667bb6f73c1")
+		)
+		(pin "USB_BOOT_N" output
+			(at 151.7396 147.32 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e5f65b01-4be7-4bf6-8d14-3606ae0d649e")
 		)
 		(instances
 			(project "QMTech-MiSTeX"

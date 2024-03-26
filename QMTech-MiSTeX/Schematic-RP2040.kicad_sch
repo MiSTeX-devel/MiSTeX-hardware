@@ -2911,6 +2911,117 @@
 				)
 			)
 		)
+		(symbol "jlcpcb-basic-resistor-0603:0R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "0R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "R_0603_1608Metric"
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF0000T5E_C21189.pdf"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "0Ohms ±1% 1/10W 0603 RoHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C21189"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0R_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0R_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "jlcpcb-basic-resistor-0603:27R"
 			(pin_numbers hide)
 			(pin_names
@@ -3507,6 +3618,12 @@
 		(uuid "273231e1-6ab5-4aa2-b05b-9d2d71146b1a")
 	)
 	(junction
+		(at 46.99 81.4832)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b87d3da-caf1-4371-9bdf-d6531e7b360f")
+	)
+	(junction
 		(at 114.0206 28.7782)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3794,7 +3911,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.3296 81.4832) (xy 57.7596 81.4832)
+			(xy 46.3296 81.4832) (xy 46.99 81.4832)
 		)
 		(stroke
 			(width 0)
@@ -4404,6 +4521,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 81.4832) (xy 57.7596 81.4832)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7abcb296-b5c7-4bad-9c1a-27acfbdee87d")
+	)
+	(wire
+		(pts
 			(xy 186.4246 120.2042) (xy 186.4106 120.2182)
 		)
 		(stroke
@@ -4704,6 +4831,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 73.66) (xy 46.99 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a783e467-3a6d-4b76-9f2c-1ff988ee93e9")
+	)
+	(wire
+		(pts
 			(xy 125.4506 37.6503) (xy 125.4506 36.3982)
 		)
 		(stroke
@@ -4724,16 +4861,6 @@
 	)
 	(wire
 		(pts
-			(xy 26.0096 81.4832) (xy 41.2496 81.4832)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae8e0eee-9cba-4466-aceb-3f923da00dcf")
-	)
-	(wire
-		(pts
 			(xy 53.4861 130.7592) (xy 77.1906 130.7592)
 		)
 		(stroke
@@ -4751,6 +4878,16 @@
 			(type default)
 		)
 		(uuid "b0aa830e-6c1b-452c-9abc-2a099aa8f838")
+	)
+	(wire
+		(pts
+			(xy 26.0096 81.4832) (xy 41.2496 81.4832)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2d5f3dd-20fc-46d6-94b0-4618fae8f409")
 	)
 	(wire
 		(pts
@@ -4781,6 +4918,16 @@
 			(type default)
 		)
 		(uuid "b47e6c23-699c-4501-883b-6c502179890d")
+	)
+	(wire
+		(pts
+			(xy 46.99 78.74) (xy 46.99 81.4832)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4e376a3-91ee-491c-9beb-8199b7727ab2")
 	)
 	(wire
 		(pts
@@ -10963,6 +11110,18 @@
 		)
 		(uuid "458d8cbd-bc55-4c55-8285-39349d68495f")
 	)
+	(hierarchical_label "USB_BOOT_N"
+		(shape output)
+		(at 33.02 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5654cf83-0896-47a3-9db8-2a7f79edeb36")
+	)
 	(hierarchical_label "UART0_RX"
 		(shape input)
 		(at 201.6506 74.4982 0)
@@ -11901,7 +12060,7 @@
 		(at 196.2835 143.0782 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -12409,9 +12568,9 @@
 		(at 57.7596 66.2432 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "4c022e0f-d8fa-40a1-9c7e-4fc5d69ac5c2")
 		(property "Reference" "R10"
 			(at 59.5376 65.0748 0)
@@ -12995,6 +13154,85 @@
 			(project "QMTech-MiSTeX"
 				(path "/bf95850e-2fcb-4784-a603-f17fc357556b/6eb28fc4-fd96-4fb7-b136-67141c56dbda"
 					(reference "R73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "jlcpcb-basic-resistor-0603:0R")
+		(at 46.99 76.2 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a53532b-12a3-4292-aea1-4d94ec5697b9")
+		(property "Reference" "R74"
+			(at 48.4886 74.9879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0R"
+			(at 48.4886 77.4121 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "R_0603_1608Metric"
+			(at 48.768 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF0000T5E_C21189.pdf"
+			(at 46.99 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 46.99 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C21189"
+			(at 46.99 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "22d0d247-7003-4c9d-855c-c69148abd550")
+		)
+		(pin "1"
+			(uuid "a31a2ef6-46f1-415d-9a2f-8a05ea02ab0b")
+		)
+		(instances
+			(project "QMTech-MiSTeX"
+				(path "/bf95850e-2fcb-4784-a603-f17fc357556b/6eb28fc4-fd96-4fb7-b136-67141c56dbda"
+					(reference "R74")
 					(unit 1)
 				)
 			)
