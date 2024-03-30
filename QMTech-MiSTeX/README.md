@@ -90,7 +90,7 @@ ADC J14 Header (3 ADC + 1 GPIO)  (RC2040)
 ### SD image (placed at Orange Pi SD slot)
 
 ```sh
-$ ffsend download http://files.hans-baier.de:1443/download/c89c19c1d909e5d4/#E7y8NQxA-L7gW781eJqsCw
+$ wget -c http://www.hans-baier.de/static/mistex-orangepizero2w.img.xz
 ```
 
 The boot image needs the menu core at /media/fat/menu.bit
