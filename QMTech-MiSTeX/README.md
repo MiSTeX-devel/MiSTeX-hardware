@@ -91,7 +91,7 @@ ADC J14 Header (3 ADC + 1 GPIO)  (RC2040)
 
 ```sh
 $ wget -c http://www.hans-baier.de/static/mistex-orangepizero2w.img.xz
-$ md5sum 30ea6324ea5340d76d8ffbd25d986887  mistex-orangepizero2w.img.xz
+$ md5sum mistex-orangepizero2w.img.xz
 30ea6324ea5340d76d8ffbd25d986887  mistex-orangepizero2w.img.xz
 ```
 
